@@ -1,0 +1,2281 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <!-- Google Tag Manager -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-54W82TFJ');</script>
+  <!-- End Google Tag Manager -->
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=AW-17623836344"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'AW-17623836344');
+  </script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DAISY CONCEPT | Studio Chân Dung</title>
+  <meta name="description" content="Studio kể chuyện bằng ánh sáng từ 2021. 10.000+ phụ nữ đã chụp. 5.0★ 16.904 đánh giá Google. Từ 3.800.000đ trọn gói.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Playfair+Display:ital,wght@0,400;0,500;1,400;1,500&family=Manrope:wght@400;500;600;700;800&subset=vietnamese&display=swap" rel="stylesheet">
+
+  <style>
+    /* ═══════════════════════════════════════
+       BLACK & WHITE DESIGN TOKENS
+    ═══════════════════════════════════════ */
+    :root {
+      --black:    #0a0a0a;
+      --black-2:  #141414;
+      --black-3:  #1e1e1e;
+      --gray-800: #262626;
+      --gray-700: #3a3a3a;
+      --gray-500: #888888;
+      --gray-300: #cccccc;
+      --gray-200: #e4e4e4;
+      --gray-100: #f0f0f0;
+      --gray-50:  #f7f7f7;
+      --white:    #ffffff;
+
+      /* Text */
+      --t-on-dark:      #ffffff;
+      --t-on-dark-2:    rgba(255,255,255,0.70);
+      --t-on-dark-3:    rgba(255,255,255,0.42);
+      --t-on-light:     #0a0a0a;
+      --t-on-light-2:   rgba(10,10,10,0.55);
+      --t-on-light-3:   rgba(10,10,10,0.35);
+
+      /* Liquid Glass — on DARK backgrounds */
+      --gd-xs:     rgba(255,255,255,0.04);
+      --gd-sm:     rgba(255,255,255,0.08);
+      --gd-md:     rgba(255,255,255,0.13);
+      --gd-lg:     rgba(255,255,255,0.20);
+      --gd-border: rgba(255,255,255,0.12);
+      --gd-shine:  rgba(255,255,255,0.24);
+
+      /* Liquid Glass — on LIGHT backgrounds */
+      --gl-sm:     rgba(255,255,255,0.60);
+      --gl-md:     rgba(255,255,255,0.78);
+      --gl-lg:     rgba(255,255,255,0.90);
+      --gl-border: rgba(0,0,0,0.08);
+      --gl-shine:  rgba(255,255,255,0.95);
+
+      /* Shadows */
+      --shadow-dark:  rgba(0,0,0,0.45) 0px 24px 64px;
+      --shadow-soft:  rgba(0,0,0,0.12) 0px 8px 32px;
+      --shadow-glow:  rgba(255,255,255,0.06) 0px 0px 60px;
+
+      --font-brand: 'Bebas Neue', Impact, sans-serif;
+      --font-serif: 'Playfair Display', 'Times New Roman', serif;
+      --font-sans:  'Manrope', system-ui, sans-serif;
+      --max-w: 1200px;
+    }
+
+    /* ═══════════════════════════════════════
+       RESET
+    ═══════════════════════════════════════ */
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body {
+      font-family: var(--font-sans);
+      background: var(--black);
+      color: var(--t-on-dark);
+      overflow-x: hidden;
+      -webkit-font-smoothing: antialiased;
+    }
+    img { display: block; max-width: 100%; height: auto; }
+    a   { text-decoration: none; color: inherit; }
+    ::selection { background: rgba(255,255,255,0.25); }
+
+    /* ═══════════════════════════════════════
+       LIQUID GLASS COMPONENTS
+    ═══════════════════════════════════════ */
+
+    /* Glass on dark */
+    .glass-d {
+      background: var(--gd-sm);
+      backdrop-filter: blur(24px) saturate(180%);
+      -webkit-backdrop-filter: blur(24px) saturate(180%);
+      border: 1px solid var(--gd-border);
+    }
+    .glass-d-card {
+      position: relative;
+      background: var(--gd-xs);
+      backdrop-filter: blur(28px) saturate(180%);
+      -webkit-backdrop-filter: blur(28px) saturate(180%);
+      border: 1px solid var(--gd-border);
+      border-radius: 20px;
+      box-shadow: var(--shadow-dark), inset 0 1px 0 var(--gd-shine);
+      overflow: hidden;
+    }
+    .glass-d-card::before {
+      content: '';
+      position: absolute; top: 0; left: 8%; right: 8%; height: 1px;
+      background: linear-gradient(90deg, transparent, var(--gd-shine), transparent);
+      pointer-events: none;
+    }
+    .glass-d-strong {
+      position: relative;
+      background: var(--gd-md);
+      backdrop-filter: blur(40px) saturate(220%) brightness(1.08);
+      -webkit-backdrop-filter: blur(40px) saturate(220%) brightness(1.08);
+      border: 1px solid rgba(255,255,255,0.18);
+      box-shadow: var(--shadow-dark), inset 0 1px 0 rgba(255,255,255,0.3);
+      overflow: hidden;
+    }
+    .glass-d-strong::before {
+      content: '';
+      position: absolute; top: 0; left: 6%; right: 6%; height: 1px;
+      background: linear-gradient(90deg, transparent, rgba(255,255,255,0.45), transparent);
+      pointer-events: none;
+    }
+
+    /* Glass on light */
+    .glass-l-card {
+      position: relative;
+      background: var(--gl-md);
+      backdrop-filter: blur(24px) saturate(200%);
+      -webkit-backdrop-filter: blur(24px) saturate(200%);
+      border: 1px solid var(--gl-border);
+      border-radius: 20px;
+      box-shadow: rgba(0,0,0,0.08) 0px 8px 32px, inset 0 1px 0 var(--gl-shine);
+      overflow: hidden;
+    }
+    .glass-l-card::before {
+      content: '';
+      position: absolute; top: 0; left: 10%; right: 10%; height: 1px;
+      background: linear-gradient(90deg, transparent, rgba(255,255,255,.9), transparent);
+      pointer-events: none;
+    }
+
+    /* Decorative spheres / blobs for liquid glass depth */
+    .sphere {
+      position: absolute;
+      border-radius: 50%;
+      pointer-events: none;
+      will-change: transform;
+      transition: transform .12s linear;
+    }
+    .sphere-glass {
+      background: rgba(255,255,255,0.06);
+      backdrop-filter: blur(60px);
+      -webkit-backdrop-filter: blur(60px);
+      border: 1px solid rgba(255,255,255,0.10);
+    }
+    .sphere-blur {
+      filter: blur(60px);
+    }
+
+    /* ═══════════════════════════════════════
+       TYPOGRAPHY
+    ═══════════════════════════════════════ */
+    h1 { font-family: var(--font-serif) !important; font-size: clamp(36px,5vw,66px); font-weight: 400; line-height: 1.06; }
+    h2 { font-family: var(--font-serif) !important; font-size: clamp(26px,3.6vw,50px); font-weight: 400; line-height: 1.22; }
+    h3 { font-family: var(--font-serif) !important; font-size: clamp(18px,2.2vw,28px); font-weight: 400; line-height: 1.3; }
+    h1 em, h2 em, h3 em { font-family: var(--font-serif) !important; font-style: italic; }
+
+    /* ── Font unification: số và giá dùng Manrope cho dễ đọc ── */
+    .stat-n,
+    .price-amount,
+    .pprice,
+    .price-main { font-family: var(--font-sans) !important; font-weight: 800; }
+
+    /* Price name/tagline giữ serif */
+    .price-name, .price-tagline { font-family: var(--font-serif); }
+
+    /* Concept name giữ serif */
+    .concept-name, .feat-title, .loc-name, .test-story-name { font-family: var(--font-serif); }
+
+    /* Body text dùng Manrope — KHÔNG override headings */
+    p { font-family: var(--font-sans); }
+    label, input, textarea, select { font-family: var(--font-sans); }
+
+    /* Đảm bảo em/strong TRONG heading kế thừa font của heading */
+    h1 em, h2 em, h3 em,
+    h1 strong, h2 strong, h3 strong { font-family: inherit; }
+
+    /* Button dùng Manrope */
+    .btn { font-family: var(--font-sans); }
+
+    .eyebrow {
+      font-family: var(--font-sans);
+      font-size: 11px; font-weight: 700;
+      letter-spacing: .18em; text-transform: uppercase;
+      display: block; margin-bottom: 12px;
+    }
+    .eyebrow-dark  { color: var(--gray-500); }
+    .eyebrow-light { color: var(--gray-500); }
+
+    /* ═══════════════════════════════════════
+       BUTTONS
+    ═══════════════════════════════════════ */
+    .btn {
+      display: inline-flex; align-items: center; justify-content: center; gap: 7px;
+      padding: 14px 28px; border-radius: 999px;
+      font-family: var(--font-sans); font-size: 14px; font-weight: 600; line-height: 1;
+      cursor: pointer; border: none;
+      transition: transform .22s ease, box-shadow .22s ease, background .18s ease, opacity .18s;
+      white-space: nowrap;
+    }
+    .btn:hover { transform: translateY(-2px); }
+
+    /* Primary: white on dark */
+    .btn-w { background: var(--white); color: var(--black); box-shadow: rgba(255,255,255,.12) 0px 8px 32px; }
+    .btn-w:hover { background: var(--gray-100); box-shadow: rgba(255,255,255,.2) 0px 14px 44px; }
+
+    /* ── Shimmer button effect ── */
+    @keyframes btn-shimmer {
+      0%   { transform: translateX(-120%) skewX(-20deg); }
+      100% { transform: translateX(220%)  skewX(-20deg); }
+    }
+    @keyframes btn-pulse {
+      0%,100% { box-shadow: 0 0 0 0 rgba(0,0,0,0.4); }
+      50%      { box-shadow: 0 0 0 7px rgba(0,0,0,0); }
+    }
+    .btn-shimmer {
+      position: relative;
+      overflow: hidden;
+      animation: btn-pulse 1.2s ease-in-out infinite;
+    }
+    .btn-shimmer::after {
+      content: '';
+      position: absolute;
+      top: -10%; left: 0;
+      width: 45%; height: 120%;
+      background: linear-gradient(
+        90deg,
+        transparent 0%,
+        rgba(0,0,0,0.18) 50%,
+        transparent 100%
+      );
+      animation: btn-shimmer 1.2s ease-in-out infinite;
+      pointer-events: none;
+    }
+
+    /* Primary: black on light */
+    .btn-b { background: var(--black); color: var(--white); }
+    .btn-b:hover { background: var(--gray-800); box-shadow: rgba(0,0,0,.22) 0px 14px 44px; }
+
+    /* Glass on dark */
+    .btn-gd {
+      background: var(--gd-sm);
+      backdrop-filter: blur(16px); -webkit-backdrop-filter: blur(16px);
+      border: 1px solid var(--gd-border) !important;
+      color: var(--t-on-dark);
+    }
+    .btn-gd:hover { background: var(--gd-md); }
+
+    /* Glass on light */
+    .btn-gl {
+      background: var(--gl-sm);
+      backdrop-filter: blur(16px); -webkit-backdrop-filter: blur(16px);
+      border: 1px solid rgba(0,0,0,0.10) !important;
+      color: var(--t-on-light);
+    }
+    .btn-gl:hover { background: var(--gl-md); }
+
+    /* Outline */
+    .btn-outline-w { background: transparent; border: 1px solid rgba(255,255,255,.28) !important; color: var(--t-on-dark-2); }
+    .btn-outline-w:hover { border-color: rgba(255,255,255,.6) !important; color: var(--t-on-dark); }
+    .btn-outline-b { background: transparent; border: 1px solid rgba(0,0,0,.18) !important; color: var(--t-on-light-2); }
+    .btn-outline-b:hover { border-color: rgba(0,0,0,.5) !important; color: var(--t-on-light); }
+
+    /* ═══════════════════════════════════════
+       LAYOUT
+    ═══════════════════════════════════════ */
+    .container { max-width: var(--max-w); margin: 0 auto; padding: 0 24px; }
+    .sect-dark  { background: var(--black); }
+    .sect-dark2 { background: var(--black-2); }
+    .sect-light { background: var(--white); }
+    .sect-gray  { background: var(--gray-50); }
+    .pad { padding: 88px 0; }
+    .pad-sm { padding: 56px 0; }
+
+    /* dividers */
+    .hr-dark  { height: 1px; border: none; background: linear-gradient(90deg,transparent,rgba(255,255,255,.14),transparent); }
+    .hr-light { height: 1px; border: none; background: linear-gradient(90deg,transparent,rgba(0,0,0,.10),transparent); }
+
+    /* ═══════════════════════════════════════
+       SCROLL REVEAL
+    ═══════════════════════════════════════ */
+    .rev { opacity: 0; transform: translateY(24px); transition: opacity .6s ease, transform .6s ease; }
+    .rev.d1 { transition-delay: .08s; }
+    .rev.d2 { transition-delay: .16s; }
+    .rev.d3 { transition-delay: .24s; }
+    .rev.d4 { transition-delay: .32s; }
+    .rev.d5 { transition-delay: .40s; }
+    .rev.on  { opacity: 1; transform: none; }
+
+    /* ═══════════════════════════════════════
+       NAVBAR
+    ═══════════════════════════════════════ */
+    #nav {
+      position: fixed; top: 0; left: 0; right: 0;
+      z-index: 300;
+      background: rgba(10,10,10,0.55);
+      border-bottom: 1px solid rgba(255,255,255,0.07);
+      backdrop-filter: blur(18px); -webkit-backdrop-filter: blur(18px);
+      transition: background .3s ease, box-shadow .3s ease, border-color .3s ease;
+    }
+    #nav.scrolled {
+      background: rgba(10,10,10,0.96);
+      border-bottom-color: rgba(255,255,255,0.12);
+      box-shadow: 0 4px 32px rgba(0,0,0,0.5);
+    }
+    .nav-inner {
+      max-width: var(--max-w); margin: 0 auto; padding: 0 32px;
+      height: 68px; display: flex; align-items: center; justify-content: space-between;
+    }
+    /* ── DAISY CONCEPT Logo ── */
+    .nav-logo {
+      font-family: var(--font-brand);
+      font-size: 22px; letter-spacing: 0.06em;
+      color: var(--white); line-height: 1; flex-shrink: 0;
+    }
+    .nav-links { display: flex; align-items: center; gap: 32px; list-style: none; }
+    .nav-links a { font-size: 14px; font-weight: 500; color: var(--white); transition: color .2s; }
+    .nav-links a:hover { color: var(--gray-300); }
+    .nav-right { display: flex; align-items: center; gap: 12px; flex-shrink: 0; }
+    .nav-toggle { display: none; flex-direction: column; gap: 5px; cursor: pointer; padding: 8px; background: none; border: none; }
+    .nav-toggle span { display: block; width: 20px; height: 2px; background: var(--white); border-radius: 2px; transition: .3s; }
+    .nav-drawer {
+      display: none; position: fixed; inset: 0; z-index: 400;
+      background: rgba(0,0,0,0.97);
+      backdrop-filter: blur(24px); -webkit-backdrop-filter: blur(24px);
+      flex-direction: column; align-items: center; justify-content: center; gap: 32px;
+    }
+    .nav-drawer.open { display: flex; }
+    .nav-drawer a { font-family: var(--font-serif); font-size: 30px; color: var(--white); }
+    .nav-drawer .brand { font-family: var(--font-brand); font-size: 40px; letter-spacing: .06em; margin-bottom: 16px; }
+    .nav-close { position: absolute; top: 24px; right: 24px; background: none; border: none; color: var(--white); font-size: 26px; cursor: pointer; }
+
+    /* ═══════════════════════════════════════
+       HERO — BLACK + LIQUID GLASS
+    ═══════════════════════════════════════ */
+    #hero {
+      min-height: 100svh; position: relative; overflow: hidden;
+      display: flex; align-items: center;
+      padding: 140px 0 72px;
+      background: var(--black);
+    }
+    /* Decorative liquid glass spheres */
+    .hero-sphere-1 {
+      width: 520px; height: 520px;
+      right: -80px; top: -80px;
+      background: radial-gradient(circle at 40% 40%,
+        rgba(255,255,255,0.08) 0%,
+        rgba(255,255,255,0.03) 40%,
+        transparent 70%);
+      backdrop-filter: blur(40px);
+      -webkit-backdrop-filter: blur(40px);
+      border: 1px solid rgba(255,255,255,0.07);
+    }
+    .hero-sphere-2 {
+      width: 300px; height: 300px;
+      left: -60px; bottom: 60px;
+      background: radial-gradient(circle, rgba(255,255,255,0.05), transparent 70%);
+      filter: blur(30px);
+    }
+    .hero-sphere-3 {
+      width: 160px; height: 160px;
+      right: 30%; top: 20%;
+      background: radial-gradient(circle, rgba(255,255,255,0.06), transparent 70%);
+      backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px);
+      border: 1px solid rgba(255,255,255,0.08);
+    }
+    .hero-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 60px; align-items: center; }
+
+    @keyframes dot-ping {
+      0%    { transform: scale(1);   opacity: .9; }
+      60%   { transform: scale(2.2); opacity: 0;  }
+      100%  { transform: scale(2.2); opacity: 0;  }
+    }
+    @keyframes dot-glow {
+      0%,100% { opacity: 1; }
+      50%     { opacity: .45; }
+    }
+    .live-dot {
+      position: relative; display: inline-flex;
+      align-items: center; justify-content: center;
+      width: 10px; height: 10px; flex-shrink: 0;
+    }
+    .live-dot::before {
+      content: '';
+      position: absolute; inset: 0; border-radius: 50%;
+      background: #fff;
+      animation: dot-ping 1.8s cubic-bezier(0,0,.2,1) infinite;
+    }
+    .live-dot::after {
+      content: '';
+      position: relative; z-index: 1;
+      width: 7px; height: 7px; border-radius: 50%;
+      background: #fff;
+      animation: dot-glow 1.8s ease-in-out infinite;
+    }
+    .hero-badge {
+      display: inline-flex; align-items: center; gap: 8px;
+      padding: 7px 16px; border-radius: 999px;
+      font-size: 12px; font-weight: 500; color: var(--gray-300);
+      margin-bottom: 24px;
+      background: var(--gd-sm);
+      backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px);
+      border: 1px solid var(--gd-border);
+    }
+    .hero-h1 { margin-bottom: 20px; color: var(--white); font-family: var(--font-sans) !important; font-weight: 800; font-size: clamp(40px, 5.5vw, 72px); line-height: 1.22; letter-spacing: -0.02em; }
+    .hero-h1 em { font-style: italic; color: var(--gray-400); }
+    .hero-sub { font-size: 16px; line-height: 1.72; color: var(--t-on-dark-2); margin-bottom: 36px; max-width: 480px; }
+    .hero-ctas { display: flex; gap: 12px; flex-wrap: wrap; margin-bottom: 52px; }
+    .hero-ctas .btn { padding: 18px 40px; font-size: 18px; font-weight: 600; }
+    .hero-stats { display: grid; grid-template-columns: repeat(4,auto); gap: 0; width: fit-content; }
+    .stat-item { padding: 0 22px 0 0; border-right: 1px solid rgba(255,255,255,.10); margin-right: 22px; }
+    .stat-item:last-child { border-right: none; margin-right: 0; padding-right: 0; }
+    .stat-n { font-family: var(--font-sans); font-size: 24px; font-weight: 800; display: block; color: var(--white); }
+    .stat-l { font-size: 11px; color: var(--t-on-dark-3); line-height: 1.4; }
+
+    /* Hero visual */
+    .hero-visual { position: relative; height: 560px; }
+    .hv-main {
+      position: absolute; right: 0; top: 0; width: 320px; height: 430px;
+      border-radius: 20px; overflow: hidden; box-shadow: rgba(0,0,0,.6) 0px 40px 80px;
+    }
+    .hv-main img { width: 100%; height: 100%; object-fit: cover; filter: contrast(1.05); }
+    .hv-sm {
+      position: absolute; left: 0; bottom: 44px; width: 180px; height: 240px;
+      border-radius: 16px; overflow: hidden; box-shadow: rgba(0,0,0,.5) 0px 24px 56px;
+    }
+    .hv-sm img { width: 100%; height: 100%; object-fit: cover; }
+
+    /* Liquid Glass overlay on main photo */
+    .hv-main::after {
+      content: '';
+      position: absolute; inset: 0;
+      background: linear-gradient(to bottom, rgba(255,255,255,0.04) 0%, transparent 40%);
+      pointer-events: none;
+    }
+
+    .hv-review {
+      position: absolute; right: -10px; bottom: 36px;
+      padding: 14px 16px; border-radius: 16px; min-width: 200px;
+    }
+    .hv-slot {
+      position: absolute; left: 12px; top: 20px;
+      padding: 10px 14px; border-radius: 12px;
+    }
+
+    /* ═══════════════════════════════════════
+       PRESS — LIGHT SECTION
+    ═══════════════════════════════════════ */
+    #press { padding: 40px 0; background: var(--gray-50); }
+    .press-inner { display: flex; align-items: center; gap: 28px; flex-wrap: wrap; justify-content: center; }
+    .press-lbl { font-size: 11px; font-weight: 600; letter-spacing: .12em; text-transform: uppercase; color: var(--t-on-light-3); }
+    .press-logos { display: flex; gap: 10px; flex-wrap: wrap; align-items: center; }
+    .press-logo {
+      padding: 9px 18px; border-radius: 10px;
+      font-size: 13px; font-weight: 700; color: var(--t-on-light-2);
+      background: var(--gl-md);
+      backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px);
+      border: 1px solid rgba(0,0,0,.07);
+      transition: color .2s, border .2s;
+    }
+    .press-logo:hover { color: var(--t-on-light); border-color: rgba(0,0,0,.2); }
+
+    /* ═══════════════════════════════════════
+       INSIGHT / PROBLEM — WHITE SECTION
+    ═══════════════════════════════════════ */
+    #insight { padding: 88px 0; background: var(--white); position: relative; overflow: hidden; }
+    /* Decorative glass sphere on light */
+    .insight-sphere {
+      width: 440px; height: 440px;
+      right: -100px; top: 50%; transform: translateY(-50%);
+      background: radial-gradient(circle, rgba(0,0,0,0.04), transparent 70%);
+      border-radius: 50%; filter: blur(40px);
+    }
+    .insight-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 64px; align-items: center; }
+    .insight-quote {
+      font-family: var(--font-serif); font-size: clamp(20px,2.8vw,34px);
+      font-style: italic; line-height: 1.45; color: var(--t-on-light);
+      border-left: 2px solid var(--black); padding-left: 22px; margin-bottom: 28px;
+    }
+    .insight-cards { display: flex; flex-direction: column; gap: 12px; }
+    .insight-item {
+      display: flex; align-items: flex-start; gap: 14px;
+      padding: 18px 20px; border-radius: 14px;
+    }
+    .insight-icon {
+      width: 38px; height: 38px; flex-shrink: 0;
+      border-radius: 10px; font-size: 17px;
+      background: var(--gray-100); border: 1px solid var(--gray-200);
+      display: flex; align-items: center; justify-content: center;
+    }
+    .i-ttl { font-size: 14px; font-weight: 600; color: var(--t-on-light); margin-bottom: 3px; }
+    .i-dsc { font-size: 13px; color: var(--t-on-light-2); line-height: 1.55; }
+
+    /* ═══════════════════════════════════════
+       WEB KÝ ỨC — BLACK SECTION
+    ═══════════════════════════════════════ */
+    #kyuc { padding: 56px 0; background: var(--black-2); position: relative; overflow: hidden; }
+    .kyuc-sphere {
+      width: 500px; height: 300px; left: 50%; transform: translateX(-50%); top: -50px;
+      background: radial-gradient(ellipse, rgba(255,255,255,0.05), transparent 70%);
+      filter: blur(50px); border-radius: 50%; pointer-events: none; position: absolute;
+    }
+    .kyuc-inner {
+      display: flex; gap: 44px; align-items: center;
+      padding: 38px 44px; border-radius: 24px;
+    }
+    .kyuc-badge {
+      display: inline-block;
+      background: rgba(255,255,255,.1);
+      border: 1px solid rgba(255,255,255,.15);
+      color: var(--t-on-dark-2); font-size: 10px; font-weight: 700;
+      padding: 5px 12px; border-radius: 999px; letter-spacing: .07em;
+      margin-bottom: 10px;
+    }
+    .kyuc-img {
+      width: 200px; flex-shrink: 0; border-radius: 14px; overflow: hidden;
+      box-shadow: rgba(0,0,0,.5) 0px 16px 48px;
+      border: 1px solid rgba(255,255,255,.08);
+    }
+    .kyuc-img img { width: 100%; height: 150px; object-fit: cover; filter: contrast(1.1) brightness(.95); }
+
+    /* ═══════════════════════════════════════
+       SERVICES — GRAY SECTION
+    ═══════════════════════════════════════ */
+    #services { padding: 88px 0; background: var(--gray-50); position: relative; overflow: hidden; }
+    .services-head { text-align: center; margin-bottom: 48px; }
+    .concepts-grid { display: grid; grid-template-columns: repeat(3,1fr); gap: 18px; }
+    .concept-card {
+      border-radius: 18px; overflow: hidden; cursor: pointer;
+      background: var(--white);
+      box-shadow: rgba(0,0,0,.06) 0px 4px 24px;
+      border: 1px solid var(--gray-200);
+      transition: transform .3s, box-shadow .3s;
+    }
+    .concept-card:hover { transform: translateY(-6px); box-shadow: rgba(0,0,0,.14) 0px 16px 48px; }
+    .concept-img { position: relative; height: 250px; overflow: hidden; }
+    .concept-img img { width: 100%; height: 100%; object-fit: cover; transition: transform .4s; filter: contrast(1.05); }
+    .concept-card:hover .concept-img img { transform: scale(1.05); }
+
+    /* Liquid Glass overlay label on concept image */
+    .concept-tag {
+      position: absolute; top: 12px; left: 12px;
+      background: rgba(255,255,255,0.72);
+      backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px);
+      border: 1px solid rgba(255,255,255,.6);
+      color: var(--black); font-size: 10px; font-weight: 700;
+      letter-spacing: .12em; text-transform: uppercase;
+      padding: 5px 11px; border-radius: 999px;
+    }
+    .concept-body { padding: 18px 20px 22px; }
+    .concept-name { font-family: var(--font-serif); font-size: 19px; color: var(--t-on-light); margin-bottom: 6px; }
+    .concept-hook { font-size: 13px; color: var(--t-on-light-2); line-height: 1.55; margin-bottom: 14px; }
+    .concept-footer { display: flex; align-items: center; justify-content: space-between; }
+    .concept-price { font-size: 14px; font-weight: 700; color: var(--t-on-light); }
+    .concept-link { font-size: 12px; color: var(--t-on-light-3); transition: color .2s; }
+    .concept-link:hover { color: var(--t-on-light); }
+
+    /* ═══════════════════════════════════════
+       PORTFOLIO — BLACK SECTION
+    ═══════════════════════════════════════ */
+    #portfolio { padding: 88px 0; background: var(--black); overflow: hidden; }
+    .portfolio-head { text-align: center; margin-bottom: 44px; }
+    .gallery { display: grid; grid-template-columns: repeat(4,1fr); grid-auto-rows: 200px; gap: 10px; }
+    .gi { border-radius: 12px; overflow: hidden; cursor: pointer; }
+    .gi img { width: 100%; height: 100%; object-fit: cover; display: block; transition: transform .4s, filter .4s; filter: contrast(1.1) brightness(.95); }
+    .gi:hover img { transform: scale(1.06); filter: contrast(1.15) brightness(1.02); }
+    .gi.tall { grid-row: span 2; }
+    .gi.wide { grid-column: span 2; }
+    .gi.big  { grid-column: span 2; grid-row: span 2; }
+
+    /* Liquid Glass overlay on gallery items on hover */
+    .gi { position: relative; }
+    .gi::after {
+      content: '';
+      position: absolute; inset: 0; border-radius: 12px;
+      background: rgba(255,255,255,0.04);
+      backdrop-filter: blur(0px); -webkit-backdrop-filter: blur(0px);
+      border: 1px solid rgba(255,255,255,0.06);
+      opacity: 0; transition: opacity .3s;
+    }
+    .gi:hover::after { opacity: 1; }
+    .gallery-cta { text-align: center; margin-top: 30px; }
+
+    /* ═══════════════════════════════════════
+       FEATURES — WHITE SECTION
+    ═══════════════════════════════════════ */
+    #features { padding: 88px 0; background: var(--white); position: relative; overflow: hidden; }
+    .features-sphere {
+      width: 360px; height: 360px; left: -80px; bottom: -80px;
+      background: radial-gradient(circle, rgba(0,0,0,0.05), transparent 70%);
+      filter: blur(50px); border-radius: 50%; pointer-events: none; position: absolute;
+    }
+    .features-head { text-align: center; margin-bottom: 52px; max-width: 660px; margin-left: auto; margin-right: auto; }
+    .features-grid { display: grid; grid-template-columns: repeat(3,1fr); gap: 20px; }
+    .feat-card {
+      padding: 34px 26px; border-radius: 20px; text-align: center;
+      transition: transform .3s;
+    }
+    .feat-card:hover { transform: translateY(-6px); }
+    .feat-num { font-family: var(--font-sans); font-size: 11px; font-weight: 700; letter-spacing: .12em; color: var(--t-on-light-3); margin-bottom: 14px; }
+    .feat-icon {
+      width: 64px; height: 64px; border-radius: 18px; margin: 0 auto 16px;
+      display: flex; align-items: center; justify-content: center; font-size: 26px;
+      background: var(--gray-100); border: 1px solid var(--gray-200);
+    }
+    .feat-title { font-family: var(--font-serif); font-size: 20px; color: var(--t-on-light); margin-bottom: 10px; }
+    .feat-desc { font-size: 13px; color: var(--t-on-light-2); line-height: 1.7; margin-bottom: 16px; }
+    .feat-link { font-size: 12px; color: var(--t-on-light-3); }
+    .feat-link:hover { color: var(--t-on-light); }
+
+    /* ═══════════════════════════════════════
+       TESTIMONIALS — BLACK SECTION
+    ═══════════════════════════════════════ */
+    #testimonials { padding: 88px 0; background: var(--black-2); position: relative; overflow: hidden; }
+    .test-sphere {
+      width: 600px; height: 200px; left: 50%; transform: translateX(-50%); top: 0;
+      background: radial-gradient(ellipse, rgba(255,255,255,0.04), transparent 70%);
+      filter: blur(60px); border-radius: 50%; pointer-events: none; position: absolute;
+    }
+    .test-head { text-align: center; margin-bottom: 52px; }
+    .test-grid { display: grid; grid-template-columns: repeat(3,1fr); gap: 20px; }
+    .test-card {
+      border-radius: 20px; overflow: hidden; cursor: pointer; transition: transform .3s;
+    }
+    .test-card:hover { transform: translateY(-5px); }
+    .test-img { height: 270px; overflow: hidden; position: relative; }
+    .test-img img { width: 100%; height: 100%; object-fit: cover; transition: transform .4s; filter: contrast(1.1); }
+    .test-card:hover .test-img img { transform: scale(1.04); }
+    /* Liquid Glass caption overlay */
+    .test-img-caption {
+      position: absolute; bottom: 0; left: 0; right: 0;
+      padding: 24px 18px 16px;
+      background: linear-gradient(to top, rgba(0,0,0,0.7) 0%, transparent 100%);
+    }
+    .test-body { padding: 20px 20px 24px; }
+    .test-quote { font-family: var(--font-serif); font-style: italic; font-size: 14px; line-height: 1.65; color: var(--t-on-dark-2); margin-bottom: 14px; }
+    .test-quote::before { content: '"'; } .test-quote::after { content: '"'; }
+    .test-name { font-size: 13px; font-weight: 600; color: var(--t-on-dark); margin-bottom: 2px; }
+    .test-meta { font-size: 11px; color: var(--t-on-dark-3); }
+
+    /* ═══════════════════════════════════════
+       PRICING — GRAY SECTION
+    ═══════════════════════════════════════ */
+    #pricing { padding: 88px 0; background: var(--gray-50); position: relative; overflow: hidden; }
+    .pricing-head { text-align: center; margin-bottom: 52px; }
+    .pricing-grid { display: grid; grid-template-columns: repeat(3,1fr); gap: 18px; max-width: 980px; margin: 0 auto; align-items: start; }
+    .price-card {
+      padding: 34px 28px; border-radius: 20px; position: relative; transition: transform .3s;
+      background: var(--white);
+      border: 1px solid var(--gray-200);
+      box-shadow: rgba(0,0,0,.05) 0px 4px 24px;
+    }
+    .price-card:hover { transform: translateY(-7px); box-shadow: rgba(0,0,0,.12) 0px 16px 48px; }
+    .price-card.hot {
+      background: var(--black) !important;
+      border: 1px solid rgba(255,255,255,.12) !important;
+      color: var(--t-on-dark);
+      box-shadow: rgba(0,0,0,.4) 0px 20px 56px !important;
+      transform: scale(1.03);
+    }
+    .price-card.hot:hover { transform: scale(1.03) translateY(-7px); }
+    .hot-badge {
+      position: absolute; top: -13px; left: 50%; transform: translateX(-50%);
+      background: var(--black); color: var(--white);
+      font-size: 10px; font-weight: 700; padding: 5px 16px; border-radius: 999px;
+      letter-spacing: .06em; white-space: nowrap;
+    }
+    .price-card.hot .hot-badge { background: var(--white); color: var(--black); }
+    .price-name { font-family: var(--font-serif); font-size: 22px; margin-bottom: 5px; }
+    .price-card:not(.hot) .price-name { color: var(--t-on-light); }
+    .price-tagline { font-family: var(--font-serif); font-style: italic; font-size: 13px; line-height: 1.5; margin-bottom: 20px; }
+    .price-card:not(.hot) .price-tagline { color: var(--t-on-light-2); }
+    .price-card.hot .price-tagline { color: var(--t-on-dark-2); }
+    .price-amount { font-family: var(--font-sans); font-size: 36px; font-weight: 800; line-height: 1; margin-bottom: 3px; }
+    .price-card:not(.hot) .price-amount { color: var(--t-on-light); }
+    .price-note { font-size: 11px; margin-bottom: 24px; }
+    .price-card:not(.hot) .price-note { color: var(--t-on-light-3); }
+    .price-card.hot .price-note { color: var(--t-on-dark-3); }
+    .price-list { list-style: none; display: flex; flex-direction: column; gap: 9px; margin-bottom: 26px; }
+    .price-list li { display: flex; align-items: flex-start; gap: 8px; font-size: 13px; line-height: 1.45; }
+    .price-card:not(.hot) .price-list li { color: var(--t-on-light-2); }
+    .price-card.hot .price-list li { color: var(--t-on-dark-2); }
+    .price-list li::before { content: '✓'; font-weight: 700; flex-shrink: 0; margin-top: 1px; }
+    .price-card:not(.hot) .price-list li::before { color: var(--black); }
+    .price-card.hot .price-list li::before { color: var(--white); }
+    .price-hl { font-weight: 600; }
+    .price-card:not(.hot) .price-hl { color: var(--black); }
+    .price-card.hot .price-hl { color: var(--white); }
+    .price-foot { text-align: center; margin-top: 28px; font-size: 12px; color: var(--t-on-light-3); }
+    .price-foot a { color: var(--t-on-light); font-weight: 600; }
+
+    /* ═══════════════════════════════════════
+       LOCATIONS — WHITE SECTION
+    ═══════════════════════════════════════ */
+    #locations { padding: 88px 0; background: var(--white); }
+    .locations-head { text-align: center; margin-bottom: 48px; }
+    .locations-grid { display: grid; grid-template-columns: repeat(2,1fr); gap: 20px; }
+    .loc-card { padding: 34px 30px; border-radius: 20px; }
+    .loc-emoji { font-size: 28px; margin-bottom: 12px; display: block; }
+    .loc-name { font-family: var(--font-serif); font-size: 22px; color: var(--t-on-light); margin-bottom: 14px; }
+    .loc-info { display: flex; flex-direction: column; gap: 10px; margin-bottom: 24px; }
+    .loc-row { display: flex; align-items: flex-start; gap: 9px; font-size: 13px; color: var(--t-on-light-2); line-height: 1.5; }
+    .loc-icon { flex-shrink: 0; margin-top: 1px; font-style: normal; }
+    .loc-btns { display: flex; gap: 9px; flex-wrap: wrap; }
+
+    /* ═══════════════════════════════════════
+       BOOKING — BLACK SECTION
+    ═══════════════════════════════════════ */
+    #booking { padding: 88px 0 112px; background: var(--black); position: relative; overflow: hidden; }
+    .booking-sphere {
+      width: 600px; height: 320px; left: 50%; transform: translateX(-50%); top: 0;
+      background: radial-gradient(ellipse, rgba(255,255,255,0.05), transparent 70%);
+      filter: blur(60px); border-radius: 50%; pointer-events: none; position: absolute;
+    }
+    .booking-wrap { max-width: 660px; margin: 0 auto; text-align: center; }
+    .booking-card { padding: 50px 44px; border-radius: 28px; margin-top: 40px; text-align: left; }
+    .bform { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-top: 28px; }
+    .bform .full { grid-column: 1/-1; }
+    .fg { display: flex; flex-direction: column; gap: 6px; }
+    .fl { font-size: 12px; font-weight: 600; color: var(--t-on-dark-3); letter-spacing: .04em; }
+    .fi {
+      background: rgba(255,255,255,0.06);
+      border: 1px solid rgba(255,255,255,0.10);
+      border-radius: 10px; padding: 12px 14px;
+      font-family: var(--font-sans); font-size: 14px; color: var(--white);
+      outline: none; width: 100%;
+      transition: border .2s, background .2s, box-shadow .2s;
+      -webkit-appearance: none;
+    }
+    .fi:focus {
+      border-color: rgba(255,255,255,0.35);
+      background: rgba(255,255,255,0.09);
+      box-shadow: 0 0 0 3px rgba(255,255,255,0.07);
+    }
+    .fi::placeholder { color: rgba(255,255,255,0.22); }
+    textarea.fi { resize: vertical; min-height: 80px; }
+    select.fi option { background: var(--black-3); color: var(--white); }
+    .radio-grp { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+    .radio-opt { position: relative; }
+    .radio-opt input { position: absolute; opacity: 0; width: 0; height: 0; }
+    .radio-lbl {
+      display: block; padding: 10px 12px; border-radius: 9px; cursor: pointer;
+      font-size: 13px; font-weight: 500; color: var(--t-on-dark-2);
+      border: 1px solid rgba(255,255,255,0.10);
+      background: rgba(255,255,255,0.05);
+      text-align: center; transition: all .2s;
+    }
+    .radio-opt input:checked + .radio-lbl {
+      background: rgba(255,255,255,0.14);
+      border-color: rgba(255,255,255,0.30);
+      color: var(--white);
+    }
+    .book-submit { width: 100%; padding: 16px; font-size: 15px; margin-top: 4px; }
+    .book-trust { text-align: center; font-size: 11px; color: var(--t-on-dark-3); margin-top: 10px; line-height: 1.6; }
+    .book-alts { display: flex; gap: 10px; justify-content: center; flex-wrap: wrap; margin-top: 22px; }
+
+    /* ═══════════════════════════════════════
+       FOOTER — BLACK
+    ═══════════════════════════════════════ */
+    footer {
+      background: var(--black-2);
+      border-top: 1px solid rgba(255,255,255,.07);
+      padding: 52px 0 28px;
+    }
+    .footer-logo {
+      font-family: var(--font-brand);
+      font-size: 28px; letter-spacing: .06em;
+      color: var(--white); margin-bottom: 12px;
+    }
+    .footer-tagline { font-size: 13px; color: var(--t-on-dark-3); line-height: 1.6; margin-bottom: 20px; max-width: 240px; }
+    .footer-grid { display: grid; grid-template-columns: 2fr 1fr 1fr 1fr; gap: 36px; margin-bottom: 40px; }
+    .fsoc-row { display: flex; gap: 8px; }
+    .fsoc {
+      width: 34px; height: 34px; border-radius: 8px; display: flex; align-items: center; justify-content: center;
+      font-size: 11px; font-weight: 700; color: var(--t-on-dark-3);
+      background: rgba(255,255,255,.06); border: 1px solid rgba(255,255,255,.08);
+      transition: .2s;
+    }
+    .fsoc:hover { color: var(--white); background: rgba(255,255,255,.12); }
+    .fcol h4 { font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: .12em; color: var(--t-on-dark); margin-bottom: 14px; }
+    .flinks { list-style: none; display: flex; flex-direction: column; gap: 8px; }
+    .flinks a { font-size: 13px; color: rgba(255,255,255,0.82); transition: color .2s; }
+    .flinks a:hover { color: var(--t-on-dark); }
+    .footer-btm {
+      display: flex; justify-content: space-between; align-items: center;
+      padding-top: 20px; border-top: 1px solid rgba(255,255,255,.06);
+      font-size: 11px; color: rgba(255,255,255,1);
+    }
+
+    /* ═══════════════════════════════════════
+       STICKY CTA BAR — ALL DEVICES
+    ═══════════════════════════════════════ */
+    #sticky-bar {
+      display: none; /* JS sẽ show sau khi scroll 50% */
+      position: fixed; z-index: 250;
+
+      /* Desktop: floating pill canh giữa, cách đáy 24px */
+      bottom: 24px; left: 50%; transform: translateX(-50%);
+      width: auto; min-width: 420px; max-width: 520px;
+      padding: 10px 12px;
+      background: rgba(10,10,10,0.92);
+      backdrop-filter: blur(28px) saturate(180%);
+      -webkit-backdrop-filter: blur(28px) saturate(180%);
+      border: 1px solid rgba(255,255,255,.12);
+      border-radius: 999px;
+      box-shadow: 0 16px 48px rgba(0,0,0,0.5), inset 0 1px 0 rgba(255,255,255,0.07);
+      transition: opacity .4s ease, transform .4s ease;
+    }
+    .sticky-inner { display: flex; gap: 8px; }
+    .sticky-inner .btn { flex: 1; padding: 13px 10px; font-size: 13px; white-space: nowrap; }
+
+    /* Mobile: full width, sat đáy */
+    @media (max-width: 767px) {
+      #sticky-bar {
+        bottom: 0; left: 0; right: 0;
+        transform: none; width: auto; min-width: unset; max-width: unset;
+        border-radius: 0; border-left: none; border-right: none; border-bottom: none;
+        padding: 10px 16px 12px;
+      }
+      body { padding-bottom: 68px; }
+    }
+
+    /* ═══════════════════════════════════════
+       RESPONSIVE — TABLET ≤1024px
+    ═══════════════════════════════════════ */
+    @media (max-width: 1024px) {
+      .hero-grid { grid-template-columns: 1fr; }
+      .hero-visual { display: none; }
+      .hero-stats { grid-template-columns: repeat(2,auto); row-gap: 14px; }
+      .concepts-grid { grid-template-columns: repeat(2,1fr); }
+      .features-grid { grid-template-columns: repeat(2,1fr); }
+      .test-grid { grid-template-columns: repeat(2,1fr); }
+      .pricing-grid { grid-template-columns: 1fr; max-width: 400px; }
+      .price-card.hot { transform: none; }
+      .price-card.hot:hover { transform: translateY(-7px); }
+      .footer-grid { grid-template-columns: 1fr 1fr; }
+      .insight-grid { grid-template-columns: 1fr; gap: 40px; }
+      .kyuc-inner { flex-direction: column; gap: 20px; text-align: center; }
+      .kyuc-img { width: 100%; max-width: 380px; margin: 0 auto; }
+      .locations-grid { grid-template-columns: 1fr; }
+    }
+
+    /* ═══════════════════════════════════════
+       RESPONSIVE — MOBILE ≤767px
+    ═══════════════════════════════════════ */
+    @media (max-width: 767px) {
+      .container { padding: 0 18px; }
+      .pad { padding: 62px 0; }
+      h1 { font-family: var(--font-serif) !important; font-size: 30px; }
+      h2 { font-family: var(--font-serif) !important; font-size: 24px; }
+      h3 { font-family: var(--font-serif) !important; font-size: 18px; }
+      h1 em, h2 em, h3 em { font-family: var(--font-serif) !important; font-style: italic; }
+
+      /* Nav */
+      .nav-links { display: none; }
+      .nav-right .btn { display: none; }
+      .nav-toggle { display: flex; }
+      .nav-inner { padding: 0 18px; height: 58px; }
+      .nav-logo { font-size: 19px; }
+
+      /* Hero */
+      #hero { padding: 88px 0 52px; min-height: auto; }
+      .hero-sub { font-size: 15px; }
+      .hero-ctas { gap: 8px; }
+      .hero-ctas .btn { flex: 1; min-width: 130px; padding: 12px 14px; font-size: 13px; }
+      .hero-stats { grid-template-columns: repeat(2,1fr); gap: 14px; width: 100%; }
+      .stat-item { border-right: none; margin-right: 0; padding: 0; }
+      .hero-badge { font-size: 11px; }
+
+      /* Services */
+      .concepts-grid { grid-template-columns: 1fr 1fr; gap: 10px; }
+      .concept-img { height: 170px; }
+      .concept-name { font-size: 16px; }
+      .concept-body { padding: 12px 12px 16px; }
+      .concept-hook { display: none; }
+
+      /* Portfolio */
+      .gallery { grid-template-columns: repeat(2,1fr); grid-auto-rows: 150px; }
+      .gi.big { grid-column: span 2; }
+      .gi.wide { grid-column: span 2; }
+      .gi.tall { grid-row: span 1; }
+
+      /* Features */
+      .features-grid { grid-template-columns: 1fr; gap: 14px; }
+
+      /* Testimonials */
+      .test-grid { grid-template-columns: 1fr; }
+      .test-img { height: 210px; }
+
+      /* Pricing */
+      .pricing-grid { grid-template-columns: 1fr; max-width: 100%; }
+      .price-card.hot { transform: none; }
+      .price-card { padding: 26px 20px; }
+
+      /* Press */
+      #press { padding: 28px 0; }
+      .press-inner { flex-direction: column; gap: 14px; }
+      .press-logos { justify-content: center; gap: 8px; }
+
+      /* KY UC */
+      .kyuc-inner { padding: 26px 20px; }
+
+      /* Booking */
+      .booking-card { padding: 30px 18px; }
+      .bform { grid-template-columns: 1fr; }
+      .radio-grp { grid-template-columns: 1fr 1fr; }
+
+      /* Footer */
+      .footer-grid { grid-template-columns: 1fr; gap: 24px; }
+      .footer-btm { flex-direction: column; gap: 6px; text-align: center; }
+
+      /* Locations */
+      .loc-card { padding: 24px 20px; }
+    }
+  </style>
+</head>
+<body>
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-54W82TFJ"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+
+<!-- ══ MOBILE NAV DRAWER ══ -->
+<div class="nav-drawer" id="navDrawer">
+  <button class="nav-close" onclick="closeNav()">✕</button>
+  <p class="brand">DAISY CONCEPT</p>
+  <a href="#services" onclick="closeNav()">Dịch vụ</a>
+  <a href="#portfolio" onclick="closeNav()">Portfolio</a>
+  <a href="#pricing" onclick="closeNav()">Bảng giá</a>
+  <a href="#locations" onclick="closeNav()">Cơ sở</a>
+  <a href="#locations" onclick="closeNav()" class="btn btn-w btn-shimmer" style="margin-top:8px;font-size:22px;padding:16px 48px;color:#000 !important;font-weight:700;letter-spacing:.02em;">Đặt lịch ngay</a>
+</div>
+
+<!-- ══ NAVBAR ══ -->
+<nav id="nav">
+  <div class="nav-inner">
+    <a href="#" class="nav-logo">DAISY CONCEPT</a>
+    <ul class="nav-links">
+      <li><a href="#services">Dịch vụ</a></li>
+      <li><a href="#portfolio">Portfolio</a></li>
+      <li><a href="#pricing">Bảng giá</a></li>
+      <li><a href="#locations">Cơ sở</a></li>
+    </ul>
+    <div class="nav-right">
+      <a href="#booking" class="btn btn-w btn-shimmer" style="padding:11px 24px;font-size:13px;font-weight:800;color:var(--black);">ĐẶT LỊCH</a>
+      <button class="nav-toggle" onclick="openNav()" aria-label="Mở menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</nav>
+
+<!-- ══ HERO ══ -->
+<section id="hero" class="sect-dark">
+  <div class="sphere hero-sphere-1"></div>
+  <div class="sphere hero-sphere-2 sphere-blur"></div>
+  <div class="sphere hero-sphere-3"></div>
+
+  <div class="container" style="position:relative;z-index:1;">
+    <div class="hero-grid">
+
+      <div class="rev">
+        <div class="hero-badge">
+          <span class="live-dot" aria-hidden="true"></span>
+          Studio kể chuyện bằng ánh sáng · từ 2024
+        </div>
+
+        <h1 class="hero-h1">
+          Bạn đã chụp bao nhiêu ảnh cho người khác.
+        </h1>
+
+        <p class="hero-sub">
+          Daisy Concept không tạo ra vẻ đẹp mới. Chúng tôi tôn lên vẻ đẹp vốn có của bạn — bằng ánh sáng, bằng câu chuyện, bằng một buổi chiều chỉ dành cho bạn.
+        </p>
+
+        <div class="hero-ctas">
+          <a href="https://gaonauchupanh.vn/dat-lich" class="btn btn-w" target="_blank">Kể câu chuyện của bạn →</a>
+          <a href="#pricing" class="btn btn-gd">Xem 3 gói dịch vụ</a>
+        </div>
+
+        <div class="hero-stats">
+          <div class="stat-item"><span class="stat-n">10K+</span><span class="stat-l">Phụ nữ đã chụp</span></div>
+          <div class="stat-item"><span class="stat-n">35%</span><span class="stat-l">Quay lại lần 2–3</span></div>
+          <div class="stat-item"><span class="stat-n">★ 5,0</span><span class="stat-l">16.904 đánh giá</span></div>
+          <div class="stat-item"><span class="stat-n">4</span><span class="stat-l">Báo tier-1</span></div>
+        </div>
+      </div>
+
+      <!-- Hero visual: desktop only -->
+      <div class="hero-visual rev d2">
+        <div class="hv-main">
+          <img src="https://gaonauchupanh.vn/wp-content/uploads/2023/05/ao-dai-sen.jpg" alt="Daisy Concept — Áo dài sen" loading="eager">
+        </div>
+        <div class="hv-sm">
+          <img src="https://gaonauchupanh.vn/wp-content/uploads/2023/04/nang-tho-ao-do-hoa-mai.jpg" alt="Daisy Concept — Nàng thơ" loading="eager">
+        </div>
+        <!-- Liquid Glass review card -->
+        <div class="hv-review glass-d-strong" style="border-radius:16px;">
+          <div style="display:flex;gap:2px;margin-bottom:7px;font-size:13px;color:var(--gray-300);">★★★★★</div>
+          <p style="font-size:12px;color:var(--t-on-dark-2);line-height:1.55;font-style:italic;margin-bottom:9px;">"Nhìn ảnh xong mình khóc — không ngờ mình đẹp vậy."</p>
+          <div style="display:flex;align-items:center;gap:8px;">
+            <div style="width:26px;height:26px;border-radius:50%;background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.15);display:flex;align-items:center;justify-content:center;font-size:12px;">👩</div>
+            <div>
+              <p style="font-size:11px;font-weight:600;color:var(--white);">Chị Quỳnh Chi · HN</p>
+              <p style="font-size:10px;color:var(--t-on-dark-3);">Google Review</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ══ PRESS (Light) ══ -->
+<section id="press" class="sect-gray">
+  <div class="container">
+    <div class="press-inner rev">
+      <span class="press-lbl">Báo chí nói về Daisy Concept</span>
+      <div class="press-logos">
+        <a href="https://cafef.vn/founder-gao-nau-ke-chuyen-bo-hoc-theo-nganh-anh-tu-can-gac-100m2-o-duong-lang-den-studio-1000m2-o-sai-gon-moi-thang-don-vai-nghin-luot-khach-den-chup-anh-188250201075308893.chn" target="_blank" rel="noopener" class="press-logo">CafeF →</a>
+        <a href="https://vtv.vn/goc-doanh-nghiep/gao-nau-chup-anh-noi-ton-vinh-nhung-ca-tinh-20241022123909685.htm" target="_blank" rel="noopener" class="press-logo">VTV →</a>
+        <a href="https://tienphong.vn/bi-quyet-tao-nen-nhung-buc-anh-ke-chuyen-tai-gao-nau-chup-anh-post1688451.tpo" target="_blank" rel="noopener" class="press-logo">Tiền Phong →</a>
+        <a href="https://vnexpress.net/studio-gao-nau-chup-anh-trien-khai-du-an-anh-gia-dinh-dip-1-6-4752901.html" target="_blank" rel="noopener" class="press-logo">VnExpress →</a>
+      </div>
+      <a href="https://gaonauchupanh.vn/bao-chi" style="font-size:11px;color:var(--t-on-light-3);" target="_blank">Xem tất cả →</a>
+    </div>
+  </div>
+</section>
+
+<hr class="hr-light">
+
+<!-- ══ INSIGHT / PROBLEM (White) ══ -->
+<section id="insight" class="sect-light">
+  <div class="sphere insight-sphere"></div>
+  <div class="container" style="position:relative;z-index:1;">
+    <div class="insight-grid">
+      <div class="rev">
+        <span class="eyebrow eyebrow-light">Bạn có nhận ra điều này không?</span>
+        <p class="insight-quote">Điện thoại bạn có bao nhiêu ảnh con, ảnh chồng, ảnh bạn bè?<br>Còn ảnh <em>bạn</em> — thật đẹp, thật là mình — đếm được không?</p>
+        <p style="font-size:16px;color:var(--t-on-light-2);line-height:1.72;margin-bottom:10px;">Không phải vì bạn không xứng đáng.</p>
+        <p style="font-size:16px;color:var(--t-on-light-2);line-height:1.72;margin-bottom:32px;">Mà vì chưa có ai <strong style="color:var(--black);">chụp bạn đúng cách.</strong></p>
+        <a href="#booking" class="btn btn-b">Để Daisy Concept chụp bạn →</a>
+      </div>
+      <div class="insight-cards rev d2">
+        <div class="insight-item glass-l-card">
+          <div class="insight-icon">😮‍💨</div>
+          <div><p class="i-ttl">"Mình không biết tạo dáng"</p><p class="i-dsc">Photographer hướng dẫn bạn từng góc — cứng mấy cũng thành tự nhiên.</p></div>
+        </div>
+        <div class="insight-item glass-l-card">
+          <div class="insight-icon">🙅‍♀️</div>
+          <div><p class="i-ttl">"Sợ ảnh edit mất nét thật"</p><p class="i-dsc">Phong cách của Daisy Concept: đẹp mà vẫn là bạn — phiên bản rạng rỡ nhất.</p></div>
+        </div>
+        <div class="insight-item glass-l-card">
+          <div class="insight-icon">😟</div>
+          <div><p class="i-ttl">"Không biết studio có ổn không"</p><p class="i-dsc">Xem trước toàn bộ studio qua Tour 360° — trước cả khi đặt lịch.</p></div>
+        </div>
+        <div class="insight-item glass-l-card">
+          <div class="insight-icon">💸</div>
+          <div><p class="i-ttl">"Sợ trả tiền rồi tiếc"</p><p class="i-dsc">35% khách quay lại lần 2–3. 16.904 đánh giá 5 sao. Đây không phải may mắn.</p></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<hr class="hr-light">
+
+<!-- ══ WEB KÝ ỨC (Dark) ══ -->
+<section id="kyuc" class="sect-dark2">
+  <div class="kyuc-sphere"></div>
+  <div class="container" style="position:relative;z-index:1;">
+    <div class="kyuc-inner glass-d-card rev">
+      <div class="kyuc-img">
+        <img src="https://gaonauchupanh.vn/images/landing/gao-nau-2-0-photos.png" alt="Web Ký Ức" onerror="this.style.height='150px';this.style.background='rgba(255,255,255,.05)';">
+      </div>
+      <div style="flex:1;">
+        <span class="kyuc-badge">Đã ra mắt 07 / 05 / 2026</span>
+        <span class="eyebrow eyebrow-dark" style="margin-top:6px;">GẠO NÂU CHỤP ẢNH</span>
+        <h2 style="margin-bottom:14px;color:var(--white);">Studio kể chuyện<br><em style="color:var(--gray-400);">bằng ánh sáng</em></h2>
+        <p style="font-size:14px;color:var(--t-on-dark-2);line-height:1.72;margin-bottom:22px;">Một buổi chụp 2 tiếng. Một website <strong style="color:var(--white);">Ký Ức riêng</strong> cho gia đình bạn. Một chương ký ức bạn có thể đọc lại sau 50 năm — rất ít studio Việt Nam đang làm.</p>
+        <div style="display:flex;gap:10px;flex-wrap:wrap;">
+          <a href="https://gaonauchupanh.vn/landingstory" class="btn btn-w" target="_blank">Khám phá Daisy Concept</a>
+        </div>
+        <p style="font-size:11px;color:var(--t-on-dark-3);margin-top:14px;">Hà Nội · TP Hồ Chí Minh · Family Legacy · Web Ký Ức</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══ SERVICES (Gray) ══ -->
+<section id="services" class="sect-gray">
+  <div class="container" style="position:relative;z-index:1;">
+    <div class="services-head rev">
+      <span class="eyebrow eyebrow-light">Dịch vụ</span>
+      <h2 style="color:var(--t-on-light);margin-bottom:12px;">6 concept chụp ảnh<br><em style="color:var(--gray-600);">dành riêng cho bạn</em></h2>
+      <p style="font-size:15px;color:var(--t-on-light-2);">Mỗi concept là một câu chuyện, một phong cách riêng.</p>
+    </div>
+    <div class="concepts-grid">
+
+      <div class="concept-card rev d1">
+        <div class="concept-img">
+          <img src="https://gaonauchupanh.vn/wp-content/uploads/2023/04/4.2-HN-MS-PHUONG-HA-16H-T1681-scaled.jpg" alt="Chân dung" loading="lazy">
+          <span class="concept-tag">Concept</span>
+        </div>
+        <div class="concept-body">
+          <p class="concept-name">Chụp ảnh chân dung</p>
+          <p class="concept-hook">Tôn lên vẻ đẹp vốn có — không phải ai khác, chỉ là bạn ở phiên bản rạng rỡ nhất.</p>
+          <div class="concept-footer"><span class="concept-price">Từ 3.800.000đ</span><a href="https://gaonauchupanh.vn/chup-anh-chan-dung" class="concept-link" target="_blank">Chi tiết →</a></div>
+        </div>
+      </div>
+
+      <div class="concept-card rev d2">
+        <div class="concept-img">
+          <img src="https://gaonauchupanh.vn/wp-content/uploads/2023/04/gia-dinh-6-nguoi.jpg" alt="Gia đình" loading="lazy">
+          <span class="concept-tag">Concept</span>
+        </div>
+        <div class="concept-body">
+          <p class="concept-name">Chụp ảnh gia đình</p>
+          <p class="concept-hook">Bọn nhỏ lớn nhanh lắm. Lưu giữ câu chuyện cả nhà — để đọc lại sau 20 năm.</p>
+          <div class="concept-footer"><span class="concept-price">Từ 3.500.000đ</span><a href="https://gaonauchupanh.vn/chup-anh-gia-dinh" class="concept-link" target="_blank">Chi tiết →</a></div>
+        </div>
+      </div>
+
+      <div class="concept-card rev d3">
+        <div class="concept-img">
+          <img src="https://gaonauchupanh.vn/wp-content/uploads/2023/05/ao-dai-sen.jpg" alt="Áo dài" loading="lazy">
+          <span class="concept-tag">Concept</span>
+        </div>
+        <div class="concept-body">
+          <p class="concept-name">Chụp ảnh áo dài</p>
+          <p class="concept-hook">Nét đẹp truyền thống Việt — mỗi nếp gấp xứng đáng được kể bằng ánh sáng.</p>
+          <div class="concept-footer"><span class="concept-price">Từ 3.800.000đ</span><a href="https://gaonauchupanh.vn/chup-anh-ao-dai" class="concept-link" target="_blank">Chi tiết →</a></div>
+        </div>
+      </div>
+
+      <div class="concept-card rev d1">
+        <div class="concept-img">
+          <img src="https://gaonauchupanh.vn/wp-content/uploads/2023/04/nang-tho-ao-do-hoa-mai.jpg" alt="Nàng thơ" loading="lazy">
+          <span class="concept-tag">Concept</span>
+        </div>
+        <div class="concept-body">
+          <p class="concept-name">Chụp ảnh nàng thơ</p>
+          <p class="concept-hook">Khi ánh sáng biết lắng nghe, mọi khoảnh khắc đều thành thơ.</p>
+          <div class="concept-footer"><span class="concept-price">Từ 3.800.000đ</span><a href="https://gaonauchupanh.vn/chup-anh-nang-tho" class="concept-link" target="_blank">Chi tiết →</a></div>
+        </div>
+      </div>
+
+      <div class="concept-card rev d2">
+        <div class="concept-img">
+          <img src="https://gaonauchupanh.vn/wp-content/uploads/2023/04/me-bau-dam-ren.jpg" alt="Mẹ bầu" loading="lazy">
+          <span class="concept-tag">Concept</span>
+        </div>
+        <div class="concept-body">
+          <p class="concept-name">Chụp ảnh mẹ bầu</p>
+          <p class="concept-hook">9 tháng — một hành trình chỉ xảy ra một lần. Đồng hành cùng mẹ.</p>
+          <div class="concept-footer"><span class="concept-price">Từ 3.800.000đ</span><a href="https://gaonauchupanh.vn/chup-anh-me-bau" class="concept-link" target="_blank">Chi tiết →</a></div>
+        </div>
+      </div>
+
+      <div class="concept-card rev d3">
+        <div class="concept-img">
+          <img src="https://gaonauchupanh.vn/wp-content/uploads/2023/04/25.11-HN-MS-KOL-NOEL-118980-scaled.jpg" alt="Sinh nhật" loading="lazy">
+          <span class="concept-tag">Concept</span>
+        </div>
+        <div class="concept-body">
+          <p class="concept-name">Sinh nhật &amp; nhóm bạn</p>
+          <p class="concept-hook">Những ngày này sẽ không quay lại. Nhưng ảnh thì ở lại mãi.</p>
+          <div class="concept-footer"><span class="concept-price">Từ 5.000.000đ</span><a href="https://gaonauchupanh.vn/chup-anh-sinh-nhat" class="concept-link" target="_blank">Chi tiết →</a></div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ══ PORTFOLIO (Black) ══ -->
+<section id="portfolio" class="sect-dark">
+  <div class="container">
+    <div class="portfolio-head rev">
+      <span class="eyebrow eyebrow-dark">Thư viện ảnh</span>
+      <h2 style="color:var(--white);margin-bottom:10px;">100.000+ bộ ảnh<br><em style="color:var(--gray-500);">đã chụp</em></h2>
+    </div>
+    <div class="gallery rev">
+      <div class="gi big"><img src="https://gaonauchupanh.vn/wp-content/uploads/2023/04/29.3-Mau-SINY-TRANG1900-scaled.jpg" alt="" loading="lazy"></div>
+      <div class="gi tall"><img src="https://gaonauchupanh.vn/wp-content/uploads/2023/04/chan-dung-ao-den-cham-nguc.jpg" alt="" loading="lazy"></div>
+      <div class="gi"><img src="https://gaonauchupanh.vn/wp-content/uploads/2023/04/22.2SGMSMAY01761-scaled.jpg" alt="" loading="lazy"></div>
+      <div class="gi"><img src="https://gaonauchupanh.vn/wp-content/uploads/2023/04/gia-dinh-tre-cuoi.jpg" alt="" loading="lazy"></div>
+      <div class="gi wide"><img src="https://gaonauchupanh.vn/wp-content/uploads/2023/05/ao-dai-sen.jpg" alt="" loading="lazy"></div>
+      <div class="gi"><img src="https://gaonauchupanh.vn/wp-content/uploads/2023/04/nang-tho-ao-do-hoa-mai.jpg" alt="" loading="lazy"></div>
+      <div class="gi"><img src="https://gaonauchupanh.vn/wp-content/uploads/2023/04/test.-010277-scaled.jpg" alt="" loading="lazy"></div>
+    </div>
+    <div class="gallery-cta rev">
+      <a href="https://gaonauchupanh.vn/bo-suu-tap" class="btn btn-gd" target="_blank">Xem toàn bộ thư viện →</a>
+    </div>
+  </div>
+</section>
+
+<!-- ══ FEATURES (White) ══ -->
+<section id="features" class="sect-light">
+  <div class="sphere features-sphere"></div>
+  <div class="container" style="position:relative;z-index:1;">
+    <div class="features-head rev">
+      <span class="eyebrow eyebrow-light">Ba điều chỉ có ở Daisy Concept</span>
+      <h2 style="color:var(--t-on-light);margin-bottom:14px;">Cam kết giữ bằng<br><em style="color:var(--gray-500);">hành động, không lời</em></h2>
+      <p style="font-size:15px;color:var(--t-on-light-2);">Không nơi nào ở Việt Nam làm đủ cả ba điều này.</p>
+    </div>
+    <div class="features-grid">
+
+      <div class="glass-l-card feat-card rev d1">
+        <p class="feat-num">01</p>
+        <div class="feat-icon">💆</div>
+        <p class="feat-title" style="color:var(--t-on-light);">Chăm sóc trước buổi chụp</p>
+        <p class="feat-desc">Đắp mặt nạ ấm. Massage chân nhẹ nhàng. Một tách trà để thả lỏng. Khi bạn bước vào frame — không còn hồi hộp nữa.</p>
+        <a href="https://gaonauchupanh.vn/bang-gia-chup-anh" class="feat-link" target="_blank">Tìm hiểu thêm →</a>
+      </div>
+
+      <div class="glass-l-card feat-card rev d2">
+        <p class="feat-num">02</p>
+        <div class="feat-icon">📺</div>
+        <p class="feat-title" style="color:var(--t-on-light);">Tour studio 360°</p>
+        <p class="feat-desc">Xem trước toàn bộ không gian và đội ngũ qua video 360° — trước cả khi đặt lịch. Biết mình sẽ bước vào đâu, gặp ai.</p>
+        <a href="https://gaonauchupanh.vn/tour-360" class="feat-link" target="_blank">Xem tour ngay →</a>
+      </div>
+
+      <div class="glass-l-card feat-card rev d3">
+        <p class="feat-num">03</p>
+        <div class="feat-icon">✨</div>
+        <p class="feat-title" style="color:var(--t-on-light);">Glow-Up Moment</p>
+        <p class="feat-desc">Mỗi khách nhận một clip 15 giây kể câu chuyện riêng. Nhỏ thôi — nhưng mỗi lần mở ra là nhớ ngay ngày hôm đó.</p>
+        <a href="https://gaonauchupanh.vn/bang-gia-chup-anh" class="feat-link" target="_blank">Tìm hiểu thêm →</a>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ══ TESTIMONIALS (Dark) ══ -->
+<section id="testimonials" class="sect-dark2">
+  <div class="test-sphere"></div>
+  <div class="container" style="position:relative;z-index:1;">
+    <div class="test-head rev">
+      <span class="eyebrow eyebrow-dark">Câu chuyện khách hàng</span>
+      <h2 style="color:var(--white);margin-bottom:12px;">Hơn cả những bộ ảnh<br><em style="color:var(--gray-500);">là câu chuyện thật</em></h2>
+      <p style="font-size:15px;color:var(--t-on-dark-2);">Họ không đến để có ảnh đẹp. Họ đến để được nhìn thấy đúng cách.</p>
+    </div>
+    <div class="test-grid">
+
+      <div class="glass-d-card test-card rev d1">
+        <div class="test-img">
+          <img src="https://gaonauchupanh.vn/wp-content/uploads/2026/05/nam-sau-nam-sau-nam-sau-nua/nam-sau-nam-sau-nam-sau-nua-03.jpg" alt="Năm sau, năm sau, năm sau nữa" loading="lazy">
+          <div class="test-img-caption">
+            <p style="font-family:var(--font-serif);font-size:13px;color:rgba(255,255,255,.9);font-style:italic;">"Năm sau, năm sau, năm sau nữa"</p>
+          </div>
+        </div>
+        <div class="test-body">
+          <p class="test-quote">Có những việc người đàn bà lùi mỗi năm một chút. Đến khi nhìn lại, mới hiểu chính cái đó là cái mình muốn nhất.</p>
+          <p class="test-name">Chị Quỳnh Chi · Hà Nội</p>
+          <p class="test-meta">Sinh nhật bốn mươi</p>
+        </div>
+      </div>
+
+      <div class="glass-d-card test-card rev d2">
+        <div class="test-img">
+          <img src="https://gaonauchupanh.vn/wp-content/uploads/2026/05/mot-quang-nguoi-ta-di-qua/mot-quang-nguoi-ta-di-qua-35.jpg" alt="Một quãng người ta đi qua" loading="lazy">
+          <div class="test-img-caption">
+            <p style="font-family:var(--font-serif);font-size:13px;color:rgba(255,255,255,.9);font-style:italic;">"Một quãng người ta đi qua"</p>
+          </div>
+        </div>
+        <div class="test-body">
+          <p class="test-quote">Có những giai đoạn không gọi được tên — không phải biến cố, không phải đỉnh cao. Chỉ là một quãng. Mà người ta vẫn phải đi.</p>
+          <p class="test-name">Anh Hoàng · Hải Phòng</p>
+          <p class="test-meta">Daisy Concept</p>
+        </div>
+      </div>
+
+      <div class="glass-d-card test-card rev d3">
+        <div class="test-img">
+          <img src="https://gaonauchupanh.vn/wp-content/uploads/2026/05/tron-nua-van-con-ruc-ro/tron-nua-van-con-ruc-ro-12.jpg" alt="Tròn nửa, vẫn còn rực rỡ" loading="lazy">
+          <div class="test-img-caption">
+            <p style="font-family:var(--font-serif);font-size:13px;color:rgba(255,255,255,.9);font-style:italic;">"Tròn nửa, vẫn còn rực rỡ"</p>
+          </div>
+        </div>
+        <div class="test-body">
+          <p class="test-quote">khoảnh khắc thực sự thuộc về mình</p>
+          <p class="test-name">Người phụ nữ tròn nửa đời</p>
+          <p class="test-meta">Hà Nội · Daisy Concept</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<hr class="hr-dark">
+
+<!-- ══ PRICING (Gray) ══ -->
+<section id="pricing" class="sect-gray">
+  <div class="container" style="position:relative;z-index:1;">
+    <div class="pricing-head rev">
+      <span class="eyebrow eyebrow-light">Ba gói, ba câu chuyện</span>
+      <h2 style="color:var(--t-on-light);margin-bottom:12px;">Câu chuyện nào<br><em style="color:var(--gray-500);">thuộc về bạn?</em></h2>
+      <p style="font-size:15px;color:var(--t-on-light-2);">Không phụ thu, không vặn vẹo.</p>
+    </div>
+    <div class="pricing-grid">
+
+      <div class="price-card rev d1">
+        <p class="price-name">Khoảnh Khắc</p>
+        <p class="price-tagline">Ghi lại một khoảnh khắc đẹp — nhẹ nhàng, trọn vẹn</p>
+        <p class="price-amount">3.800.000đ</p>
+        <p class="price-note">Giá trọn gói</p>
+        <ul class="price-list">
+          <li>1 layout makeup &amp; làm tóc</li>
+          <li>1 layout trang phục &amp; phụ kiện</li>
+          <li>10 ảnh chỉnh sửa kỹ lưỡng</li>
+          <li>1 background tự chọn</li>
+          <li><span class="price-hl">Chăm sóc trước buổi chụp</span></li>
+          <li>Ekip hỗ trợ tạo dáng xuyên suốt</li>
+          <li><span class="price-hl">Toàn bộ file ảnh gốc trong ngày</span></li>
+        </ul>
+        <a href="https://gaonauchupanh.vn/dat-lich" class="btn btn-outline-b" style="width:100%;justify-content:center;" target="_blank">Chọn Khoảnh Khắc</a>
+      </div>
+
+      <div class="price-card hot rev d2">
+        <div class="hot-badge">⭐ Phổ biến nhất</div>
+        <p class="price-name">Câu Chuyện</p>
+        <p class="price-tagline">Kể câu chuyện của bạn qua từng khung hình tinh tế</p>
+        <p class="price-amount">4.800.000đ</p>
+        <p class="price-note">Giá trọn gói</p>
+        <ul class="price-list">
+          <li>1 layout makeup &amp; làm tóc</li>
+          <li>1 layout trang phục &amp; phụ kiện</li>
+          <li>10 ảnh chỉnh sửa kỹ lưỡng</li>
+          <li>1 background tự chọn</li>
+          <li><span class="price-hl">Chăm sóc trước buổi chụp</span></li>
+          <li>Ekip hỗ trợ tạo dáng xuyên suốt</li>
+          <li><span class="price-hl">Toàn bộ file ảnh gốc trong ngày</span></li>
+          <li><span class="price-hl">+ Glow-Up Moment clip 15 giây</span></li>
+        </ul>
+        <a href="https://gaonauchupanh.vn/dat-lich" class="btn btn-w" style="width:100%;justify-content:center;" target="_blank">Chọn Câu Chuyện</a>
+      </div>
+
+      <div class="price-card rev d3">
+        <p class="price-name">Di Sản</p>
+        <p class="price-tagline">Tác phẩm để lưu giữ — không chỉ cho hôm nay</p>
+        <p class="price-amount">6.800.000đ</p>
+        <p class="price-note">Giá trọn gói</p>
+        <ul class="price-list">
+          <li>1 layout makeup &amp; làm tóc <span class="price-hl">CAO CẤP</span></li>
+          <li>1 layout trang phục &amp; phụ kiện</li>
+          <li>10 ảnh chỉnh sửa kỹ lưỡng</li>
+          <li>1 background tự chọn</li>
+          <li><span class="price-hl">Chăm sóc trước buổi chụp</span></li>
+          <li>Ekip hỗ trợ tạo dáng xuyên suốt</li>
+          <li><span class="price-hl">Toàn bộ file ảnh gốc trong ngày</span></li>
+          <li><span class="price-hl">+ Web Ký Ức riêng cho gia đình</span></li>
+        </ul>
+        <a href="https://gaonauchupanh.vn/dat-lich" class="btn btn-outline-b" style="width:100%;justify-content:center;" target="_blank">Chọn Di Sản</a>
+      </div>
+
+    </div>
+    <p class="price-foot mt32 rev">💡 Giá có thể thay đổi theo concept đặc biệt và dịp lễ. Liên hệ <a href="tel:+84396387597">0396 387 597</a> để tư vấn.</p>
+  </div>
+</section>
+
+<!-- ══ BOOKING CALENDAR ══ -->
+<section id="locations" style="padding:88px 0;background:#fff4f6;position:relative;overflow:hidden;">
+
+  <!-- Decorative blobs -->
+  <div style="position:absolute;width:400px;height:400px;border-radius:50%;background:radial-gradient(circle,rgba(255,182,193,.25),transparent 70%);top:-80px;right:-80px;pointer-events:none;"></div>
+  <div style="position:absolute;width:300px;height:300px;border-radius:50%;background:radial-gradient(circle,rgba(255,218,224,.3),transparent 70%);bottom:-60px;left:-60px;pointer-events:none;"></div>
+
+  <div class="container" style="position:relative;z-index:1;">
+
+    <!-- Header -->
+    <div class="rev" style="text-align:center;margin-bottom:40px;">
+      <span style="font-size:11px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:#e8829a;display:block;margin-bottom:10px;">🌸 Đặt lịch chụp</span>
+      <h2 style="font-family:var(--font-serif);font-size:clamp(26px,3.5vw,44px);font-weight:400;color:#2a1a1f;margin-bottom:12px;">Chọn ngày &amp; giờ<br><em style="color:#e8829a;">phù hợp với bạn</em></h2>
+      <p style="font-size:15px;color:#8a6672;max-width:500px;margin:0 auto;">Bấm vào ô trống để chọn — slot còn trống hiển thị realtime 💕</p>
+    </div>
+
+    <!-- Legend -->
+    <div style="display:flex;gap:20px;justify-content:center;flex-wrap:wrap;margin-bottom:28px;" class="rev">
+      <div style="display:flex;align-items:center;gap:7px;"><div style="width:18px;height:18px;border-radius:6px;background:#fff;border:1.5px solid #f0c8d0;"></div><span style="font-size:13px;color:#8a6672;">Còn trống</span></div>
+      <div style="display:flex;align-items:center;gap:7px;"><div style="width:18px;height:18px;border-radius:6px;background:#ffe4eb;border:1.5px solid #f4a0b5;"></div><span style="font-size:13px;color:#8a6672;">Đang chọn</span></div>
+      <div style="display:flex;align-items:center;gap:7px;"><div style="width:18px;height:18px;border-radius:6px;background:#f8c8d0;border:1.5px solid #e8829a;"></div><span style="font-size:13px;color:#8a6672;">Đã đặt</span></div>
+    </div>
+
+    <!-- Calendar -->
+    <div class="rev" style="background:#fff;border-radius:24px;box-shadow:0 8px 40px rgba(232,130,154,.12);overflow:hidden;border:1px solid #fce4ea;">
+
+      <!-- Sticky header row -->
+      <div id="cal-header" style="display:grid;grid-template-columns:100px repeat(4,1fr);background:linear-gradient(135deg,#2a1a1f 0%,#4a2535 100%);position:sticky;top:0;z-index:10;">
+        <div style="padding:14px 12px;font-size:12px;font-weight:600;color:rgba(255,255,255,.5);text-transform:uppercase;letter-spacing:.08em;">Ngày</div>
+        <div style="padding:14px 8px;text-align:center;border-left:1px solid rgba(255,255,255,.08);">
+          <div style="font-size:12px;font-weight:700;color:#ffb3c6;">9:00</div>
+          <div style="font-size:10px;color:rgba(255,255,255,.4);">— 11:00</div>
+        </div>
+        <div style="padding:14px 8px;text-align:center;border-left:1px solid rgba(255,255,255,.08);">
+          <div style="font-size:12px;font-weight:700;color:#ffb3c6;">11:30</div>
+          <div style="font-size:10px;color:rgba(255,255,255,.4);">— 13:30</div>
+        </div>
+        <div style="padding:14px 8px;text-align:center;border-left:1px solid rgba(255,255,255,.08);">
+          <div style="font-size:12px;font-weight:700;color:#ffb3c6;">14:00</div>
+          <div style="font-size:10px;color:rgba(255,255,255,.4);">— 16:00</div>
+        </div>
+        <div style="padding:14px 8px;text-align:center;border-left:1px solid rgba(255,255,255,.08);">
+          <div style="font-size:12px;font-weight:700;color:#ffb3c6;">16:30</div>
+          <div style="font-size:10px;color:rgba(255,255,255,.4);">— 18:30</div>
+        </div>
+      </div>
+
+      <!-- Calendar rows (JS generated) -->
+      <div id="cal-body"></div>
+
+    </div>
+
+    <!-- Selected slot info + quick book -->
+    <div id="slot-info" style="display:none;margin-top:24px;background:#fff;border-radius:18px;padding:22px 24px;box-shadow:0 4px 24px rgba(232,130,154,.15);border:1.5px solid #f4a0b5;" class="rev">
+      <div style="display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:14px;">
+        <div>
+          <p style="font-size:12px;color:#e8829a;font-weight:700;text-transform:uppercase;letter-spacing:.1em;margin-bottom:4px;">Bạn đã chọn</p>
+          <p id="slot-display" style="font-size:17px;font-weight:700;color:#2a1a1f;"></p>
+        </div>
+        <a href="#booking" style="background:linear-gradient(135deg,#e8829a,#c4516a);color:#fff;border-radius:999px;padding:13px 28px;font-size:14px;font-weight:700;font-family:var(--font-sans);text-decoration:none;white-space:nowrap;box-shadow:0 4px 20px rgba(196,81,106,.35);">
+          Đặt lịch ngay →
+        </a>
+      </div>
+    </div>
+
+
+  </div>
+</section>
+
+<style>
+/* Calendar cells */
+.cal-row { display:grid; grid-template-columns:100px repeat(4,1fr); border-top:1px solid #fce4ea; }
+.cal-row:hover { background:#fffafb; }
+.cal-date { padding:14px 12px; }
+.cal-day  { font-size:11px; font-weight:700; color:#c47088; text-transform:uppercase; }
+.cal-num  { font-size:17px; font-weight:700; color:#2a1a1f; line-height:1; }
+.cal-mn   { font-size:10px; color:#c4a0aa; }
+.cal-today .cal-num { color:#e8829a; }
+.cal-today .cal-day { color:#e8829a; }
+
+.slot-cell {
+  padding:10px 6px; border-left:1px solid #fce4ea;
+  display:flex; align-items:center; justify-content:center;
+  cursor:pointer; transition:background .15s, transform .1s;
+  min-height:60px;
+}
+.slot-cell:hover:not(.slot-booked) { background:#fff0f3; transform:scale(1.02); }
+
+.slot-free {
+  background:#fff; border-radius:10px;
+  display:flex; flex-direction:column; align-items:center; gap:2px;
+  padding:8px 10px; width:100%;
+}
+.slot-free-icon { font-size:16px; }
+.slot-free-txt  { font-size:10px; color:#c4a0aa; font-weight:500; }
+
+.slot-selected .slot-free {
+  background:linear-gradient(135deg,#ffe4eb,#ffd0dc);
+  border:1.5px solid #f4a0b5;
+}
+.slot-selected .slot-free-txt { color:#e8829a; font-weight:700; }
+
+.slot-booked {
+  cursor:default;
+}
+.slot-booked-inner {
+  background:#f8e0e5; border-radius:10px;
+  display:flex; flex-direction:column; align-items:center; gap:2px;
+  padding:8px 10px; width:100%;
+  opacity:.7;
+}
+.slot-booked-inner .b-icon { font-size:15px; }
+.slot-booked-inner .b-txt  { font-size:10px; color:#c47088; font-weight:600; }
+
+@media (max-width:600px) {
+  .cal-row { grid-template-columns:70px repeat(4,1fr); }
+  .cal-date { padding:10px 6px; }
+  .cal-num  { font-size:14px; }
+  .slot-cell { min-height:50px; padding:6px 3px; }
+  .slot-free, .slot-booked-inner { padding:6px 4px; }
+  .slot-free-icon, .slot-booked-inner .b-icon { font-size:14px; }
+}
+</style>
+
+<script>
+(function() {
+  const TIMES  = ['9:00–11:00','11:30–13:30','14:00–16:00','16:30–18:30'];
+  const DAYS_VI = ['CN','T2','T3','T4','T5','T6','T7'];
+  const DAYS_FULL = ['Chủ nhật','Thứ 2','Thứ 3','Thứ 4','Thứ 5','Thứ 6','Thứ 7'];
+
+  let bookedMap  = {};
+  let selectedSlot = null;
+
+  // Tạo 14 ngày từ hôm nay
+  function getDays() {
+    const days = [];
+    const today = new Date();
+    for (let i = 0; i < 14; i++) {
+      const d = new Date(today);
+      d.setDate(today.getDate() + i);
+      days.push(d);
+    }
+    return days;
+  }
+
+  function slotKey(date, timeIdx) {
+    const y = date.getFullYear();
+    const m = String(date.getMonth()+1).padStart(2,'0');
+    const d = String(date.getDate()).padStart(2,'0');
+    return `${y}-${m}-${d}-${timeIdx}`;
+  }
+
+  function formatDate(d) {
+    const dow = d.toLocaleDateString('vi-VN',{weekday:'long'});
+    const dd  = String(d.getDate()).padStart(2,'0');
+    const mm  = String(d.getMonth()+1).padStart(2,'0');
+    const yy  = d.getFullYear();
+    return `${dow}, ${dd}/${mm}/${yy}`;
+  }
+
+  function render() {
+    const body = document.getElementById('cal-body');
+    const days  = getDays();
+    const today = new Date(); today.setHours(0,0,0,0);
+    let html = '';
+
+    days.forEach(date => {
+      const isToday = date.toDateString() === today.toDateString();
+      const dow     = DAYS_VI[date.getDay()];
+      const day     = date.getDate();
+      const mon     = date.getMonth()+1;
+      const rowClass = isToday ? 'cal-row cal-today' : 'cal-row';
+
+      html += `<div class="${rowClass}">`;
+      html += `<div class="cal-date">
+        <div class="cal-day">${dow}${isToday?' <span style="font-size:9px;background:#e8829a;color:#fff;border-radius:4px;padding:1px 4px;">Hôm nay</span>':''}</div>
+        <div class="cal-num">${day}</div>
+        <div class="cal-mn">Tháng ${mon}</div>
+      </div>`;
+
+      TIMES.forEach((t, ti) => {
+        const key    = slotKey(date, ti);
+        const booked = bookedMap[key];
+        const sel    = selectedSlot === key;
+        const isPast = date < today;
+
+        if (booked || isPast) {
+          const label = isPast ? '—' : '🌸';
+          const txt   = isPast ? 'Đã qua' : 'Đã đặt';
+          html += `<div class="slot-cell slot-booked">
+            <div class="slot-booked-inner">
+              <span class="b-icon">${label}</span>
+              <span class="b-txt">${txt}</span>
+            </div>
+          </div>`;
+        } else {
+          const cellClass = sel ? 'slot-cell slot-selected' : 'slot-cell';
+          const icon = sel ? '✨' : '🕊️';
+          const txt  = sel ? 'Đã chọn' : 'Trống';
+          html += `<div class="${cellClass}" onclick="selectSlot('${key}','${formatDate(date)}','${t}')">
+            <div class="slot-free">
+              <span class="slot-free-icon">${icon}</span>
+              <span class="slot-free-txt">${txt}</span>
+            </div>
+          </div>`;
+        }
+      });
+
+      html += '</div>';
+    });
+
+    body.innerHTML = html;
+  }
+
+  window.selectSlot = function(key, dateStr, timeStr) {
+    if (bookedMap[key]) return;
+    selectedSlot = (selectedSlot === key) ? null : key;
+
+    const info    = document.getElementById('slot-info');
+    const display = document.getElementById('slot-display');
+
+    if (selectedSlot) {
+      const label = `${dateStr} · ${timeStr}`;
+      display.textContent = label;
+      info.style.display  = 'block';
+      // Truyền slot key + label vào form để dùng sau khi thanh toán
+      const slotKeyEl   = document.getElementById('f-slot-key');
+      const slotLabelEl = document.getElementById('f-slot-label');
+      const noteField   = document.getElementById('f-note');
+      if (slotKeyEl)   slotKeyEl.value   = key;
+      if (slotLabelEl) slotLabelEl.value = label;
+      if (noteField && !noteField.value) noteField.value = `Slot mong muốn: ${label}`;
+    } else {
+      info.style.display = 'none';
+      const slotKeyEl = document.getElementById('f-slot-key');
+      if (slotKeyEl) slotKeyEl.value = '';
+    }
+    render();
+  };
+
+  async function fetchSlots() {
+    try {
+      const r = await fetch(`/api/slots?_=${Date.now()}`, { cache:'no-store' });
+      const d = await r.json();
+      bookedMap = d.booked || {};
+      render();
+    } catch { render(); }
+  }
+
+  // Init
+  fetchSlots();
+  // Poll mỗi 15 giây
+  setInterval(fetchSlots, 15000);
+  // Expose để showThankYou / verifyPayment có thể gọi refresh ngay
+  window.refreshCalendar = fetchSlots;
+})();
+</script>
+
+<!-- ══ BOOKING (Light Pastel) ══ -->
+<section id="booking" style="padding:88px 0 112px;background:linear-gradient(120deg,#c8d0f0 0%,#dbd6f4 35%,#efd8ee 65%,#fce8dc 100%);position:relative;overflow:hidden;">
+
+  <!-- Decorative blobs -->
+  <div style="position:absolute;width:520px;height:520px;border-radius:50%;background:radial-gradient(circle,rgba(170,155,220,0.16),transparent 70%);top:-140px;right:-120px;pointer-events:none;filter:blur(50px);"></div>
+  <div style="position:absolute;width:380px;height:380px;border-radius:50%;background:radial-gradient(circle,rgba(220,160,195,0.14),transparent 70%);bottom:-100px;left:-80px;pointer-events:none;filter:blur(40px);"></div>
+
+  <div class="container" style="position:relative;z-index:1;">
+
+    <!-- Section header -->
+    <div class="rev" style="text-align:center;margin-bottom:48px;">
+      <span style="font-size:11px;font-weight:700;letter-spacing:.18em;text-transform:uppercase;color:#9878a8;display:block;margin-bottom:12px;">Khi bạn sẵn sàng</span>
+      <h2 style="color:#000000;margin-bottom:14px;">Câu chuyện của bạn<br>bắt đầu ở đây</h2>
+      <p style="font-size:15px;color:#6b5070;line-height:1.72;max-width:500px;margin:0 auto;">
+        Để lại thông tin, ekip Daisy Concept sẽ liên hệ lắng nghe câu chuyện của bạn
+        và tư vấn concept phù hợp.
+      </p>
+    </div>
+
+    <!-- 2-column grid -->
+    <div id="booking-grid" style="display:grid;grid-template-columns:1.1fr 0.9fr;gap:28px;max-width:960px;margin:0 auto;align-items:start;">
+
+      <!-- ── Left: Form card ── -->
+      <div class="rev" style="background:#fff;border-radius:22px;padding:36px 32px;box-shadow:0 8px 48px rgba(80,40,100,0.10);">
+        <form class="bform" onsubmit="handleSubmit(event)" id="bookingForm">
+          <div class="fg"><label class="fl" style="color:#6b5070;">Họ và tên *</label><input type="text" id="f-name" class="fi" placeholder="Nguyễn Thị A" required autocomplete="name"></div>
+          <div class="fg"><label class="fl" style="color:#6b5070;">Số điện thoại *</label><input type="tel" id="f-phone" class="fi" placeholder="0396 xxx xxx" required autocomplete="tel" pattern="[0-9]{9,11}" inputmode="numeric" oninput="this.value=this.value.replace(/[^0-9]/g,'').slice(0,11)" title="Vui lòng nhập số điện thoại hợp lệ (9-11 chữ số)"></div>
+          <div class="fg full"><label class="fl" style="color:#6b5070;">Email *</label><input type="email" id="f-email" class="fi" placeholder="example@gmail.com" required autocomplete="email"></div>
+          <div class="fg full">
+            <label class="fl" style="color:#6b5070;">Concept yêu thích</label>
+            <select id="f-concept" class="fi">
+              <option value="" disabled selected>-- Chọn dịch vụ --</option>
+              <option>Chụp ảnh chân dung</option>
+              <option>Chụp ảnh gia đình</option>
+              <option>Chụp ảnh áo dài</option>
+              <option>Chụp ảnh nàng thơ</option>
+              <option>Chụp ảnh mẹ và con</option>
+              <option>Chụp ảnh sinh nhật &amp; nhóm bạn</option>
+              <option>Chưa rõ — cần tư vấn</option>
+            </select>
+          </div>
+          <div class="fg full"><label class="fl" style="color:#6b5070;">Ghi chú thêm <span style="font-weight:400;opacity:.5;">(tuỳ chọn)</span></label><textarea id="f-note" class="fi" placeholder="Ví dụ: sinh nhật tuần tới, cần tư vấn trang phục..."></textarea></div>
+          <input type="hidden" id="f-slot-key" value="">
+          <input type="hidden" id="f-slot-label" value="">
+          <div class="full">
+            <button type="submit" class="btn book-submit" id="submitBtn" style="width:100%;padding:16px;font-size:15px;background:#1a1020;color:#fff;border-radius:12px;border:none;font-weight:700;cursor:pointer;transition:opacity .2s;">Đặt lịch &amp; thanh toán cọc →</button>
+            <p style="text-align:center;font-size:11px;color:#a088b0;margin-top:10px;line-height:1.6;">Đặt cọc <strong style="color:#6b5070;">5.000đ</strong> qua QR để giữ lịch · Daisy Concept xác nhận trong 2 tiếng</p>
+          </div>
+        </form>
+      </div>
+
+      <!-- ── Right: Contact options ── -->
+      <div class="rev d2" style="padding-top:4px;">
+        <h3 style="font-family:var(--font-serif);color:#1a1020;font-size:clamp(20px,2.2vw,28px);font-weight:400;line-height:1.3;margin-bottom:10px;">Hoặc liên hệ<br>trực tiếp ngay</h3>
+        <p style="font-size:14px;color:#8a6888;line-height:1.65;margin-bottom:24px;">Ekip luôn sẵn sàng lắng nghe câu chuyện của bạn. Không vội vàng, không áp lực.</p>
+
+        <!-- Contact cards -->
+        <div style="display:flex;flex-direction:column;gap:11px;">
+
+          <a href="tel:+84396387597" style="display:flex;align-items:center;gap:14px;background:#fff;border-radius:14px;padding:15px 18px;box-shadow:0 4px 20px rgba(80,40,100,0.07);border:1px solid rgba(180,150,200,0.18);text-decoration:none;transition:transform .2s,box-shadow .2s;"
+            onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 8px 28px rgba(80,40,100,0.13)'"
+            onmouseout="this.style.transform='';this.style.boxShadow='0 4px 20px rgba(80,40,100,0.07)'">
+            <div style="width:42px;height:42px;border-radius:12px;background:#f0ecf8;display:flex;align-items:center;justify-content:center;font-size:19px;flex-shrink:0;">📞</div>
+            <div>
+              <p style="font-size:14px;font-weight:700;color:#1a1020;margin:0 0 2px;">Gọi điện</p>
+              <p style="font-size:12px;color:#a088b0;margin:0;">0396 387 597</p>
+            </div>
+          </a>
+
+          <a href="https://zalo.me/2780520369440427485" target="_blank" style="display:flex;align-items:center;gap:14px;background:#fff;border-radius:14px;padding:15px 18px;box-shadow:0 4px 20px rgba(80,40,100,0.07);border:1px solid rgba(180,150,200,0.18);text-decoration:none;transition:transform .2s,box-shadow .2s;"
+            onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 8px 28px rgba(80,40,100,0.13)'"
+            onmouseout="this.style.transform='';this.style.boxShadow='0 4px 20px rgba(80,40,100,0.07)'">
+            <div style="width:42px;height:42px;border-radius:12px;background:#e8f5f0;display:flex;align-items:center;justify-content:center;font-size:19px;flex-shrink:0;">💬</div>
+            <div>
+              <p style="font-size:14px;font-weight:700;color:#1a1020;margin:0 0 2px;">Nhắn Zalo</p>
+              <p style="font-size:12px;color:#a088b0;margin:0;">Phản hồi trong 15 phút</p>
+            </div>
+          </a>
+
+          <a href="https://m.me/245213082009753" target="_blank" style="display:flex;align-items:center;gap:14px;background:#fff;border-radius:14px;padding:15px 18px;box-shadow:0 4px 20px rgba(80,40,100,0.07);border:1px solid rgba(180,150,200,0.18);text-decoration:none;transition:transform .2s,box-shadow .2s;"
+            onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 8px 28px rgba(80,40,100,0.13)'"
+            onmouseout="this.style.transform='';this.style.boxShadow='0 4px 20px rgba(80,40,100,0.07)'">
+            <div style="width:42px;height:42px;border-radius:12px;background:#eaf0f8;display:flex;align-items:center;justify-content:center;font-size:19px;flex-shrink:0;">💌</div>
+            <div>
+              <p style="font-size:14px;font-weight:700;color:#1a1020;margin:0 0 2px;">Messenger</p>
+              <p style="font-size:12px;color:#a088b0;margin:0;">Facebook · Gạo Nâu Chụp Ảnh</p>
+            </div>
+          </a>
+
+        </div>
+
+        <!-- Announcement box -->
+        <div style="margin-top:18px;background:rgba(255,255,255,0.62);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);border-radius:14px;padding:16px 18px;border:1px solid rgba(180,150,200,0.22);">
+          <p style="font-size:12px;color:#8a6888;line-height:1.65;margin:0 0 8px;">Gạo Nâu ra mắt tính năng mới vào <strong style="color:#6b5070;">07/05/2026</strong> — Website Ký Ức riêng cho gia đình bạn. Một chương ký ức bạn có thể đọc lại sau 50 năm.</p>
+          <a href="https://gaonauchupanh.vn/landingstory" target="_blank" style="font-size:12px;color:#9878a8;font-weight:600;text-decoration:none;">Khám phá ngay →</a>
+        </div>
+
+      </div>
+    </div><!-- end booking-grid -->
+  </div>
+</section>
+
+<style>
+/* ── Booking section: override dark .fi inputs → light ── */
+#booking .fi {
+  background: #f8f4fc;
+  border: 1px solid #ddd0ea;
+  color: #1a1020;
+}
+#booking .fi:focus {
+  border-color: #b08aaa;
+  background: #fff;
+  box-shadow: 0 0 0 3px rgba(176,138,170,0.13);
+}
+#booking .fi::placeholder { color: #c4aed0; }
+#booking select.fi option  { background: #fff; color: #1a1020; }
+#booking textarea.fi { min-height: 80px; }
+#booking .radio-lbl {
+  border-color: #ddd0ea;
+  background: #f8f4fc;
+  color: #6b5070;
+}
+#booking .radio-opt input:checked + .radio-lbl {
+  background: #ede5f8;
+  border-color: #b08aaa;
+  color: #1a1020;
+}
+/* Responsive: stack to 1 col on tablet/mobile */
+@media (max-width: 900px) {
+  #booking-grid { grid-template-columns: 1fr !important; max-width: 560px !important; }
+}
+</style>
+
+<!-- ══ FOOTER ══ -->
+<footer>
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <p class="footer-logo">DAISY CONCEPT</p>
+        <p class="footer-tagline">Studio kể chuyện bằng ánh sáng từ 2021. Nơi vẻ đẹp vốn có của bạn được tôn lên đúng cách.</p>
+      </div>
+      <div class="fcol">
+        <h4>Dịch vụ</h4>
+        <ul class="flinks">
+          <li><a href="https://gaonauchupanh.vn/chup-anh-chan-dung" target="_blank">Chân dung cá nhân</a></li>
+          <li><a href="https://gaonauchupanh.vn/chup-anh-gia-dinh" target="_blank">Gia đình</a></li>
+          <li><a href="https://gaonauchupanh.vn/chup-anh-ao-dai" target="_blank">Áo dài</a></li>
+          <li><a href="https://gaonauchupanh.vn/chup-anh-nang-tho" target="_blank">Nàng thơ</a></li>
+          <li><a href="https://gaonauchupanh.vn/chup-anh-me-bau" target="_blank">Mẹ bầu</a></li>
+          <li><a href="https://gaonauchupanh.vn/chup-anh-sinh-nhat" target="_blank">Sinh nhật &amp; Nhóm bạn</a></li>
+        </ul>
+      </div>
+      <div class="fcol">
+        <h4>Studio</h4>
+        <ul class="flinks">
+          <li><a href="https://gaonauchupanh.vn/bo-suu-tap" target="_blank">Portfolio</a></li>
+          <li><a href="https://gaonauchupanh.vn/landingstory" target="_blank">Về Daisy Concept</a></li>
+          <li><a href="https://gaonauchupanh.vn/bang-gia-chup-anh" target="_blank">Bảng giá</a></li>
+        </ul>
+      </div>
+      <div class="fcol">
+        <h4>Liên hệ</h4>
+        <ul class="flinks">
+          <li><a href="tel:+84396387597">📞 0396 387 597</a></li>
+          <li><a href="https://zalo.me/2780520369440427485" target="_blank">💬 Zalo</a></li>
+          <li><a href="https://m.me/245213082009753" target="_blank">💌 Messenger</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-btm">
+      <p>© 2026 DAISY CONCEPT · Chụp Ảnh Chân Dung &nbsp;—&nbsp; Build by Bình Lê</p>
+      <div style="display:flex;align-items:center;gap:6px;font-size:11px;color:rgba(255,255,255,0.55);">
+        <a href="https://m.me/245213082009753" target="_blank" style="color:rgba(255,255,255,0.55);transition:color .2s;" onmouseover="this.style.color='#fff'" onmouseout="this.style.color='rgba(255,255,255,0.55)'">Facebook</a>
+        <span style="opacity:.4;">·</span>
+        <a href="https://www.instagram.com/gaonauchupanh" target="_blank" style="color:rgba(255,255,255,0.55);transition:color .2s;" onmouseover="this.style.color='#fff'" onmouseout="this.style.color='rgba(255,255,255,0.55)'">Instagram</a>
+        <span style="opacity:.4;">·</span>
+        <a href="https://www.tiktok.com/@gaonauchupanh" target="_blank" style="color:rgba(255,255,255,0.55);transition:color .2s;" onmouseover="this.style.color='#fff'" onmouseout="this.style.color='rgba(255,255,255,0.55)'">TikTok</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- ══ STICKY CTA BAR — mobile + desktop, hiện khi scroll 50% ══ -->
+<div id="sticky-bar">
+  <div class="sticky-inner">
+    <a href="tel:+84329160517" class="btn btn-gd">📞 Gọi ngay</a>
+    <a href="#locations" class="btn btn-w btn-shimmer" style="color:#000;font-weight:700;">📅 Đặt lịch</a>
+    <a href="https://m.me/245213082009753" class="btn btn-gd" target="_blank">💬 Nhắn Messenger</a>
+  </div>
+</div>
+
+<script>
+
+  /* ── Scroll reveal ── */
+  const ro = new IntersectionObserver((e) => {
+    e.forEach(x => { if (x.isIntersecting) { x.target.classList.add('on'); ro.unobserve(x.target); } });
+  }, { threshold: 0.08 });
+  document.querySelectorAll('.rev').forEach(el => ro.observe(el));
+
+  /* ── Navbar: sticky scroll effect ── */
+  (function() {
+    const nav = document.getElementById('nav');
+    window.addEventListener('scroll', function() {
+      nav.classList.toggle('scrolled', window.scrollY > 60);
+    }, { passive: true });
+  })();
+
+  /* ── Mobile nav ── */
+  function openNav()  { document.getElementById('navDrawer').classList.add('open'); document.body.style.overflow='hidden'; }
+  function closeNav() { document.getElementById('navDrawer').classList.remove('open'); document.body.style.overflow=''; }
+
+  /* ── Liquid Glass mouse parallax on spheres ── */
+  document.addEventListener('mousemove', (e) => {
+    if (window.innerWidth < 768) return;
+    const spheres = document.querySelectorAll('.sphere');
+    const cx = (e.clientX / window.innerWidth  - 0.5) * 20;
+    const cy = (e.clientY / window.innerHeight - 0.5) * 20;
+    spheres.forEach((s, i) => {
+      const f = (i % 2 === 0 ? 1 : -0.7) * 0.5;
+      s.style.transform = `translate(${cx*f}px, ${cy*f}px)`;
+    });
+  }, { passive: true });
+
+  /* ── Payment Modal ── */
+  async function handleSubmit(e) {
+    e.preventDefault();
+    const name    = document.getElementById('f-name').value.trim();
+    const phone   = document.getElementById('f-phone').value.trim();
+    const email   = document.getElementById('f-email').value.trim();
+    const concept = document.getElementById('f-concept').value || 'Chưa chọn';
+    const note      = document.getElementById('f-note').value.trim();
+    const slotKey   = document.getElementById('f-slot-key')?.value   || '';
+    const slotLabel = document.getElementById('f-slot-label')?.value || '';
+
+    // VietQR dynamic URL — TP Bank
+    const BANK    = 'TPBANK';
+    const ACCOUNT = '00000542290';
+    const HOLDER  = 'LE CHAU THANH BINH';
+    const AMOUNT  = 5000;
+    // Normalize: bỏ dấu tiếng Việt — để khớp với nội dung CK ngân hàng
+    const normName = name.normalize('NFD').replace(/[̀-ͯ]/g,'').replace(/[đĐ]/g,c=>c==='đ'?'d':'D').toUpperCase().trim();
+    const descText = 'DAISY DAT LICH ' + normName;
+    const desc     = encodeURIComponent(descText);
+    // Dùng SePay QR (có logo SePay + VietQR branding như ảnh)
+    const qrUrl    = `https://qr.sepay.vn/img?bank=TPB&acc=${ACCOUNT}&template=compact2&amount=${AMOUNT}&des=${desc}`;
+
+    // Fill modal
+    document.getElementById('pm-name').textContent    = name;
+    document.getElementById('pm-phone').textContent   = phone;
+    document.getElementById('pm-email').textContent   = email;
+    document.getElementById('pm-concept').textContent = concept;
+    document.getElementById('pm-qr').src              = qrUrl;
+    document.getElementById('pm-desc').textContent    = descText;
+
+    // Gửi thông báo Telegram (không chặn UI)
+    fetch('/api/notify', {
+      method:  'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ name, phone, email, concept, note, slotLabel })
+    }).catch(() => {});
+
+    // Show modal
+    const modal = document.getElementById('payModal');
+    modal.style.display = 'flex';
+    document.body.style.overflow = 'hidden';
+
+    // Lấy snapshot giao dịch hiện tại → dùng làm danh sách loại trừ
+    // Chỉ chấp nhận giao dịch MỚI xuất hiện sau khi khách mở QR
+    let oldRefs = [];
+    try {
+      const snap = await fetch(`/api/check-payment?snapshot=1&_=${Date.now()}`, { cache: 'no-store' });
+      const snapData = await snap.json();
+      oldRefs = snapData.refs || [];
+    } catch {}
+    console.log('[snapshot] Loại trừ', oldRefs.length, 'giao dịch cũ');
+
+    startPaymentPolling(descText, name, phone, email, concept, oldRefs, slotKey, slotLabel);
+  }
+
+  /* ── Sticky bar: hiện khi scroll 50% — tất cả thiết bị ── */
+  (function() {
+    const bar = document.getElementById('sticky-bar');
+    let shown = false;
+    window.addEventListener('scroll', () => {
+      const pct = window.scrollY / (document.body.scrollHeight - window.innerHeight);
+      if (!shown && pct >= 0.5) {
+        shown = true;
+        bar.style.display = 'block';
+      } else if (shown && pct < 0.1) {
+        shown = false;
+        bar.style.display = 'none';
+      }
+    }, { passive: true });
+  })();
+  /* ── Auto-polling: tự kiểm tra giao dịch sau khi QR hiện ── */
+  let _pollTimer = null;
+  let _pollCount = 0;
+  const POLL_MAX = 60; // 5 phút (60 lần × 5s)
+
+  function startPaymentPolling(desc, name, phone, email, concept, oldRefs, slotKey, slotLabel) {
+    stopPaymentPolling();
+    _pollCount = 0;
+    const excludeParam = (oldRefs || []).join(',');
+    _pollTimer = setInterval(async () => {
+      _pollCount++;
+      if (_pollCount > POLL_MAX) { stopPaymentPolling(); return; }
+      try {
+        const r = await fetch(
+          `/api/check-payment?desc=${encodeURIComponent(desc)}&exclude=${encodeURIComponent(excludeParam)}&_=${Date.now()}`,
+          { cache: 'no-store' }
+        );
+        const d = await r.json();
+        if (d.paid) {
+          stopPaymentPolling();
+          showThankYou(name, phone, email, concept, d.amount, slotKey, slotLabel);
+        }
+      } catch {}
+    }, 5000);
+  }
+
+  function stopPaymentPolling() {
+    if (_pollTimer) { clearInterval(_pollTimer); _pollTimer = null; }
+  }
+
+  /* ── Màn hình cảm ơn ── */
+  function showThankYou(name, phone, email, concept, amount, slotKey, slotLabel) {
+    // 1. Đánh dấu slot đã booked trên calendar (realtime)
+    if (slotKey) {
+      fetch('/api/slots', {
+        method:  'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ slot: slotKey, name, phone, concept })
+      }).then(() => {
+        // Refresh calendar ngay sau khi slot được lưu
+        if (window.refreshCalendar) window.refreshCalendar();
+      }).catch(() => {});
+    }
+
+    // 2. Gửi email xác nhận
+    fetch('/api/send-confirmation', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ name, email, phone, concept, slotKey, slotLabel })
+    }).catch(() => {});
+
+    // Chuyển toàn bộ nội dung modal sang Thank You
+    const inner = document.querySelector('#payModal > div');
+    inner.innerHTML = `
+      <div style="padding:48px 32px; text-align:center;">
+        <!-- Animated checkmark -->
+        <div style="
+          width:72px; height:72px; border-radius:50%;
+          background:rgba(34,197,94,.15); border:2px solid rgba(34,197,94,.4);
+          display:flex; align-items:center; justify-content:center;
+          margin:0 auto 20px; font-size:32px;
+          animation:popIn .5s cubic-bezier(.34,1.56,.64,1);
+        ">✅</div>
+
+        <p style="font-family:'Bebas Neue',sans-serif; font-size:24px; letter-spacing:.06em; color:#fff; margin:0 0 8px;">
+          Đăng ký thành công!
+        </p>
+        <p style="font-size:16px; font-weight:600; color:#4ade80; margin:0 0 20px;">
+          Cảm ơn <span style="color:#fff;">${name}</span> đã tin tưởng Daisy Concept 🌸
+        </p>
+
+        <div style="background:rgba(255,255,255,.06); border-radius:14px; padding:18px 20px; margin-bottom:20px; text-align:left;">
+          <p style="font-size:12px; color:rgba(255,255,255,.4); margin:0 0 10px; text-transform:uppercase; letter-spacing:.1em;">Thông tin đặt lịch</p>
+          <div style="display:flex; flex-direction:column; gap:7px;">
+            <div style="display:flex; justify-content:space-between;">
+              <span style="font-size:13px; color:rgba(255,255,255,.45);">Họ tên</span>
+              <span style="font-size:13px; font-weight:600; color:#fff;">${name}</span>
+            </div>
+            <div style="display:flex; justify-content:space-between;">
+              <span style="font-size:13px; color:rgba(255,255,255,.45);">Điện thoại</span>
+              <span style="font-size:13px; font-weight:600; color:#fff;">${phone}</span>
+            </div>
+            <div style="display:flex; justify-content:space-between;">
+              <span style="font-size:13px; color:rgba(255,255,255,.45);">Concept</span>
+              <span style="font-size:13px; font-weight:600; color:#fff;">${concept || 'Sẽ tư vấn thêm'}</span>
+            </div>
+          </div>
+        </div>
+
+        <p style="font-size:13px; color:rgba(255,255,255,.55); margin:0 0 8px; line-height:1.6;">
+          📩 Email xác nhận đã gửi tới <strong style="color:rgba(255,255,255,.8);">${email}</strong>
+        </p>
+        ${slotLabel ? `<p style="font-size:13px;color:rgba(255,255,255,.55);margin:0 0 10px;line-height:1.6;">
+          📅 Slot đã đặt: <strong style="color:#ffb3c6;">${slotLabel}</strong>
+        </p>` : ''}
+        <p style="font-size:13px; color:rgba(255,255,255,.55); margin:0 0 28px; line-height:1.6;">
+          Ekip Daisy Concept sẽ liên hệ bạn trong <strong style="color:#fff;">2 tiếng</strong> để xác nhận lịch chụp.
+        </p>
+
+        <button onclick="closeModal()" style="
+          width:100%; padding:14px; border-radius:999px; border:none; cursor:pointer;
+          background:#fff; color:#000; font-size:14px; font-weight:700;
+          font-family:'Manrope',sans-serif;
+        ">Đóng lại</button>
+      </div>
+    `;
+  }
+
+  function downloadQR() {
+    const img = document.getElementById('pm-qr');
+    if (!img || !img.src) return;
+    const name = document.getElementById('pm-name')?.textContent || 'QR';
+    fetch(img.src)
+      .then(r => r.blob())
+      .then(blob => {
+        const url = URL.createObjectURL(blob);
+        const a   = document.createElement('a');
+        a.href     = url;
+        a.download = `QR-Daisy-${name}.png`;
+        a.click();
+        URL.revokeObjectURL(url);
+      })
+      .catch(() => {
+        // Fallback: mở ảnh trong tab mới
+        window.open(img.src, '_blank');
+      });
+  }
+
+  function closeModal() {
+    stopPaymentPolling();
+    document.getElementById('payModal').style.display = 'none';
+    document.body.style.overflow = '';
+  }
+
+  async function verifyPayment() {
+    const btn = document.getElementById('verifyBtn');
+    const status = document.getElementById('verifyStatus');
+    const desc = document.getElementById('pm-desc').textContent;
+
+    btn.disabled = true;
+    btn.textContent = '⏳ Đang kiểm tra...';
+    btn.style.opacity = '.6';
+    status.style.display = 'none';
+
+    try {
+      const res  = await fetch(`/api/check-payment?desc=${encodeURIComponent(desc)}`);
+      const data = await res.json();
+
+      if (data.paid) {
+        stopPaymentPolling();
+        const name      = document.getElementById('pm-name').textContent;
+        const phone     = document.getElementById('pm-phone').textContent;
+        const email     = document.getElementById('pm-email').textContent;
+        const concept   = document.getElementById('pm-concept').textContent;
+        const slotKey   = document.getElementById('f-slot-key')?.value   || '';
+        const slotLabel = document.getElementById('f-slot-label')?.value || '';
+
+        // Đánh dấu slot đã booked trên calendar
+        if (slotKey) {
+          fetch('/api/slots', {
+            method:  'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ slot: slotKey, name, phone, concept })
+          }).then(() => {
+            if (window.refreshCalendar) window.refreshCalendar();
+          }).catch(() => {});
+        }
+
+        // Gửi email xác nhận cho khách
+        fetch('/api/send-confirmation', {
+          method:  'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ name, email, phone, concept, slotLabel })
+        }).catch(() => {});
+
+        status.style.display = 'block';
+        status.style.background = 'rgba(34,197,94,.15)';
+        status.style.color = '#4ade80';
+        status.style.border = '1px solid rgba(34,197,94,.25)';
+        status.innerHTML = `✅ Xác nhận thành công! Cọc <strong>${Number(data.amount).toLocaleString('vi-VN')}đ</strong> đã nhận.<br>
+          <span style="font-weight:400;opacity:.8;">Email xác nhận đã gửi tới hộp thư của bạn 📩</span>`;
+        btn.style.display = 'none';
+      } else {
+        status.style.display = 'block';
+        status.style.background = 'rgba(251,191,36,.1)';
+        status.style.color = '#fbbf24';
+        status.style.border = '1px solid rgba(251,191,36,.2)';
+        status.textContent = '⏳ Chưa tìm thấy giao dịch — Vui lòng đợi 1-2 phút rồi thử lại.';
+        btn.disabled = false;
+        btn.textContent = 'Thử lại';
+        btn.style.opacity = '1';
+      }
+    } catch {
+      status.style.display = 'block';
+      status.style.background = 'rgba(239,68,68,.1)';
+      status.style.color = '#f87171';
+      status.style.border = '1px solid rgba(239,68,68,.2)';
+      status.textContent = '❌ Lỗi kết nối — Vui lòng thử lại.';
+      btn.disabled = false;
+      btn.textContent = 'Thử lại';
+      btn.style.opacity = '1';
+    }
+  }
+  document.addEventListener('keydown', e => { if (e.key === 'Escape') closeModal(); });
+  document.getElementById('payModal').addEventListener('click', function(e) {
+    if (e.target === this) closeModal();
+  });
+</script>
+
+<!-- ══ PAYMENT MODAL ══ -->
+<div id="payModal" style="
+  display:none; position:fixed; inset:0; z-index:500;
+  background:rgba(0,0,0,0.88); backdrop-filter:blur(14px);
+  align-items:center; justify-content:center; padding:16px;
+">
+  <div style="
+    background:#1a1a1a; border:1px solid rgba(255,255,255,0.10);
+    border-radius:20px; width:100%; max-width:500px;
+    box-shadow:0 40px 80px rgba(0,0,0,0.7);
+    overflow:hidden; position:relative;
+  ">
+
+    <!-- ── Header ── -->
+    <div style="padding:20px 22px 16px; display:flex; justify-content:space-between; align-items:flex-start;">
+      <div>
+        <p style="font-family:'Bebas Neue',sans-serif; font-size:22px; letter-spacing:.06em; color:#fff; margin:0; line-height:1;">DAISY CONCEPT</p>
+        <p style="font-size:12px; color:rgba(255,255,255,.4); margin:4px 0 0;">Xác nhận đặt lịch &amp; thanh toán cọc</p>
+      </div>
+      <button onclick="closeModal()" style="
+        background:#2e2e2e; border:none; border-radius:50%;
+        width:36px; height:36px; cursor:pointer; color:rgba(255,255,255,.7);
+        font-size:16px; display:flex; align-items:center; justify-content:center;
+        flex-shrink:0; margin-top:2px;
+      ">✕</button>
+    </div>
+
+    <!-- ── Customer info ── -->
+    <div style="margin:0 16px; background:#111; border-radius:12px; padding:14px 16px; margin-bottom:14px;">
+      <p style="font-size:10px; font-weight:700; letter-spacing:.14em; text-transform:uppercase; color:rgba(255,255,255,.3); margin:0 0 12px;">Thông tin đặt lịch</p>
+      <div style="display:grid; grid-template-columns:1fr 1fr; gap:12px;">
+        <div>
+          <p style="font-size:11px; color:rgba(255,255,255,.35); margin:0 0 3px;">Họ tên</p>
+          <p id="pm-name" style="font-size:14px; font-weight:700; color:#fff; margin:0;"></p>
+        </div>
+        <div>
+          <p style="font-size:11px; color:rgba(255,255,255,.35); margin:0 0 3px;">Điện thoại</p>
+          <p id="pm-phone" style="font-size:14px; font-weight:700; color:#fff; margin:0;"></p>
+        </div>
+        <div>
+          <p style="font-size:11px; color:rgba(255,255,255,.35); margin:0 0 3px;">Email</p>
+          <p id="pm-email" style="font-size:13px; color:rgba(255,255,255,.65); margin:0; word-break:break-all;"></p>
+        </div>
+        <div>
+          <p style="font-size:11px; color:rgba(255,255,255,.35); margin:0 0 3px;">Concept</p>
+          <p id="pm-concept" style="font-size:13px; color:rgba(255,255,255,.65); margin:0;"></p>
+        </div>
+      </div>
+    </div>
+
+    <!-- ── QR + Bank info (side by side) ── -->
+    <div style="padding:0 16px 16px; display:flex; gap:16px; align-items:flex-start;">
+
+      <!-- QR: white box + nút tải -->
+      <div style="flex-shrink:0; display:flex; flex-direction:column; align-items:center; gap:8px;">
+        <div style="background:#fff; border-radius:12px; padding:4px; width:192px; height:192px; display:flex; align-items:center; justify-content:center;">
+          <img id="pm-qr" src="" alt="QR thanh toán"
+            style="width:184px; height:184px; object-fit:contain; display:block;"
+            onerror="this.src='https://qr.sepay.vn/img?bank=TPB&acc=00000542290&template=compact2&amount=5000&des=DAISY%20DAT%20LICH'">
+        </div>
+        <!-- Nút tải ảnh QR -->
+        <button onclick="downloadQR()" style="
+          width:100%; background:rgba(255,255,255,.10);
+          border:1px solid rgba(255,255,255,.18); border-radius:8px;
+          padding:8px 12px; cursor:pointer;
+          font-family:var(--font-sans); font-size:12px; font-weight:600;
+          color:rgba(255,255,255,.85); display:flex; align-items:center; justify-content:center; gap:5px;
+          transition:background .2s;
+        " onmouseover="this.style.background='rgba(255,255,255,.2)'"
+           onmouseout="this.style.background='rgba(255,255,255,.10)'">
+          ⬇️ Tải ảnh QR
+        </button>
+      </div>
+
+      <!-- Bank info -->
+      <div style="flex:1; min-width:0; padding-top:2px;">
+        <p style="font-size:10px; font-weight:700; letter-spacing:.14em; text-transform:uppercase; color:rgba(255,255,255,.3); margin:0 0 12px;">Thông tin chuyển khoản</p>
+        <div style="display:flex; flex-direction:column; gap:9px;">
+          <div style="display:flex; justify-content:space-between; align-items:baseline; gap:8px;">
+            <span style="font-size:12px; color:rgba(255,255,255,.4); flex-shrink:0;">Ngân hàng</span>
+            <span style="font-size:13px; font-weight:700; color:#fff; text-align:right;">TP Bank</span>
+          </div>
+          <div style="display:flex; justify-content:space-between; align-items:baseline; gap:8px;">
+            <span style="font-size:12px; color:rgba(255,255,255,.4); flex-shrink:0;">Số TK</span>
+            <span style="font-size:14px; font-weight:800; color:#fff; letter-spacing:.03em; text-align:right;">00000542290</span>
+          </div>
+          <div style="display:flex; justify-content:space-between; align-items:baseline; gap:8px;">
+            <span style="font-size:12px; color:rgba(255,255,255,.4); flex-shrink:0;">Chủ TK</span>
+            <span style="font-size:11px; font-weight:600; color:rgba(255,255,255,.8); text-align:right;">LE CHAU THANH BINH</span>
+          </div>
+          <div style="height:1px; background:rgba(255,255,255,.08); margin:2px 0;"></div>
+          <div style="display:flex; justify-content:space-between; align-items:baseline; gap:8px;">
+            <span style="font-size:12px; color:rgba(255,255,255,.4); flex-shrink:0;">Số tiền cọc</span>
+            <span style="font-size:20px; font-weight:800; color:#fff;">5.000đ</span>
+          </div>
+          <div style="background:#111; border-radius:8px; padding:8px 10px;">
+            <p style="font-size:10px; color:rgba(255,255,255,.35); margin:0 0 3px;">Nội dung chuyển khoản</p>
+            <p id="pm-desc" style="font-size:12px; font-weight:700; color:#fff; margin:0; word-break:break-all; line-height:1.4;"></p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- ── Verify button + footer ── -->
+    <div style="padding:0 16px 20px;">
+      <button id="verifyBtn" onclick="verifyPayment()" style="
+        width:100%; padding:14px; border-radius:999px; border:none; cursor:pointer;
+        background:#fff; color:#000; font-size:14px; font-weight:700;
+        font-family:'Manrope',sans-serif; transition:opacity .2s; margin-bottom:10px;
+      ">Tôi đã chuyển khoản — Xác nhận ngay</button>
+      <div id="verifyStatus" style="display:none; text-align:center; padding:10px 12px; border-radius:10px; font-size:13px; font-weight:600; margin-bottom:10px;"></div>
+      <p style="font-size:12px; color:rgba(255,255,255,.28); margin:0; text-align:center; line-height:1.8;">
+        Khi chuyển khoản, Daisy sẽ xác nhận lịch trong <strong style="color:rgba(255,255,255,.55);">2 tiếng</strong><br>
+        Liên lạc với Daisy: <a href="tel:+84329160517" style="color:rgba(255,255,255,.45);">0329 160 517</a>
+      </p>
+    </div>
+
+  </div>
+</div>
+
+<style>
+  #payModal { display:none; }
+  #payModal.open { display:flex; }
+  @keyframes popIn {
+    0%   { transform: scale(0.5); opacity: 0; }
+    100% { transform: scale(1);   opacity: 1; }
+  }
+</style>
+
+</body>
+</html>
